@@ -396,5 +396,50 @@ Grandes telas : acima de 1200px
         border-radius: 20px;
         margin-top: 15px;
     }
+    footer{
+        height: 350px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.87);
+    }
+    footer a.footer{ /*Menus do rodapé*/
+        color: white;
+        font-size: 1.0em;
+    }
+    div#nav{ /*div da parte da navegação*/
+        position: absolute;
+        top: 45px;
+        left: 40px;
+    }
+    div#nav p{ /*parágrafo da navegação*/
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+    div#popu{ /*div da parte causas populares*/
+        position: absolute;
+        top: 45px;
+        left: 240px;
+    }
+    div#popu p{ /*parágrafo causas populares*/
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+    div#part{
+        position: absolute;
+        top: 45px;
+        left: 510px;
+    }
+    div#part p{ /*parágrafo da parte participantes*/
+        margin-top: 5px;
+        font-size: 0.7em;
+    }
+    div#cont{ /*div da parte contato*/
+        position: absolute;
+        top: 45px;
+        left: 810px;
+    }
+    div#cont p{ /*parágrafo da parte contato*/
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
     
 }
