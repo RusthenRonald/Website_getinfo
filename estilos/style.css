@@ -14,7 +14,7 @@ body,html{
 }
 header{
     position: relative;
-    height: 600px;
+    height: 550px;
     background-image: url(../img/pq.jpg);
     background-position: center;
 }
@@ -35,11 +35,12 @@ a:hover{/**/
 div#header{/*Div para posicionar texto do header*/
     width: 380px;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 10%;
 }
 /*textos do header*/
 div h1{ 
+    
     font-size: 1.3em;
     width: 60vw;
     color: white;
@@ -53,9 +54,9 @@ form{/*formulário*/
     overflow: hidden;
     position: absolute;
     bottom: 35px;
-    left: 35px;
+    left: 25px;
     background-color: white;
-    height: 200px;
+    height: 180px;
     width: 80vw;
     border-radius: 8px;
     padding: 20px;
