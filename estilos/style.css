@@ -82,7 +82,7 @@ footer{
 }
 footer a.footer{ /*Menus do rodapé*/
     color: white;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 footer p{
     color: white;
@@ -90,25 +90,25 @@ footer p{
 div#nav{ /*div da parte da navegação*/
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 15px;
 }
 div#nav p{ /*parágrafo da navegação*/
     margin-top: 20px;
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 div#popu{ /*div da parte causas populares*/
     position: absolute;
     top: 10px;
-    left: 180px;
+    left: 165px;
 }
 div#popu p{ /*parágrafo causas populares*/
     margin-top: 20px;
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 div#part{
     position: absolute;
-    top: 170px;
-    left: 20px;
+    top: 140px;
+    left: 15px;
 }
 div#part p{ /*parágrafo da parte participantes*/
     margin-top: 5px;
@@ -116,7 +116,7 @@ div#part p{ /*parágrafo da parte participantes*/
 }
 div#cont{ /*div da parte contato*/
     position: absolute;
-    top: 170px;
+    top: 140px;
     left: 160px;
 }
 div#cont p{ /*parágrafo da parte contato*/

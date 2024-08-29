@@ -187,7 +187,7 @@ Grandes telas : acima de 1200px
     }
     div#nav{ /*div da parte da navegação*/
         position: absolute;
-        top: 20px;
+        top: 45px;
         left: 30px;
     }
     div#nav p{ /*parágrafo da navegação*/
@@ -196,7 +196,7 @@ Grandes telas : acima de 1200px
     }
     div#popu{ /*div da parte causas populares*/
         position: absolute;
-        top: 20px;
+        top: 45px;
         left: 180px;
     }
     div#popu p{ /*parágrafo causas populares*/
@@ -205,7 +205,7 @@ Grandes telas : acima de 1200px
     }
     div#part{
         position: absolute;
-        top: 20px;
+        top: 45px;
         left: 370px;
     }
     div#part p{ /*parágrafo da parte participantes*/
@@ -214,7 +214,7 @@ Grandes telas : acima de 1200px
     }
     div#cont{ /*div da parte contato*/
         position: absolute;
-        top: 20px;
+        top: 45px;
         left: 570px;
     }
     div#cont p{ /*parágrafo da parte contato*/
@@ -286,6 +286,51 @@ Grandes telas : acima de 1200px
         border-radius: 20px;
         margin-top: 15px;
     }
+    footer{
+        height: 350px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.87);
+    }
+    footer a.footer{ /*Menus do rodapé*/
+        color: white;
+        font-size: 1.0em;
+    }
+    div#nav{ /*div da parte da navegação*/
+        position: absolute;
+        top: 45px;
+        left: 40px;
+    }
+    div#nav p{ /*parágrafo da navegação*/
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+    div#popu{ /*div da parte causas populares*/
+        position: absolute;
+        top: 45px;
+        left: 190px;
+    }
+    div#popu p{ /*parágrafo causas populares*/
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+    div#part{
+        position: absolute;
+        top: 45px;
+        left: 410px;
+    }
+    div#part p{ /*parágrafo da parte participantes*/
+        margin-top: 5px;
+        font-size: 0.7em;
+    }
+    div#cont{ /*div da parte contato*/
+        position: absolute;
+        top: 45px;
+        left: 650px;
+    }
+    div#cont p{ /*parágrafo da parte contato*/
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
 }
 /*Telas maiores que 1200px*/
 @media screen and (min-width:1200px) {
@@ -351,4 +396,5 @@ Grandes telas : acima de 1200px
         border-radius: 20px;
         margin-top: 15px;
     }
+    
 }
