@@ -81,3 +81,11 @@ footer{
 footer a.footer{ /*Menus do rodapé*/
     color: white;
 }
+footer p{
+    color: white;
+}
+
+
+        /*
+        <a class="footer" href="#">Participantes</a>
+        <a class="footer" href="#">Contato</a> */
