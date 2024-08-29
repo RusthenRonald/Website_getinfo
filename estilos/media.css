@@ -70,6 +70,47 @@ Grandes telas : acima de 1200px
         border-radius: 20px;
         margin-top: 15px;
     }
+    footer a.footer{ /*Menus do rodapé*/
+        color: white;
+        font-size: 1.0em;
+    }
+    div#nav{ /*div da parte da navegação*/
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    div#nav p{ /*parágrafo da navegação*/
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+    div#popu{ /*div da parte causas populares*/
+        position: absolute;
+        top: 20px;
+        left: 270px;
+    }
+    div#popu p{ /*parágrafo causas populares*/
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+    div#part{
+        position: absolute;
+        top: 170px;
+        left: 30px;
+    }
+    div#part p{ /*parágrafo da parte participantes*/
+        margin-top: 5px;
+        font-size: 0.7em;
+    }
+    div#cont{ /*div da parte contato*/
+        position: absolute;
+        top: 170px;
+        left: 270px;
+    }
+    div#cont p{ /*parágrafo da parte contato*/
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+    
 }
 /*desktop*/
 @media screen and (min-width:768px) and (max-width:992px){
