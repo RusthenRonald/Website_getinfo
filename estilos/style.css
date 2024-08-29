@@ -76,6 +76,8 @@ form>input[type=submit]{/*botão de doar*/
     margin-top: 15px;
 }
 footer{
+    height: 300px;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.87);
 }
 footer a.footer{ /*Menus do rodapé*/
@@ -84,8 +86,25 @@ footer a.footer{ /*Menus do rodapé*/
 footer p{
     color: white;
 }
+div#nav{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+div#popu{ /*div da parte causas populares*/
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+div#part{
+    position: absolute;
+    top: 10px;
+    left: 800px;
+}
+div#cont{ /*div da parte contato*/
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+}
 
-
-        /*
-        <a class="footer" href="#">Participantes</a>
-        <a class="footer" href="#">Contato</a> */
+        
