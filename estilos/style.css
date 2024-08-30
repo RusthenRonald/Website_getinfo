@@ -31,7 +31,7 @@ a{/*Links internos do menu*/
     color: rgb(161, 161, 161);
 }
 a:hover{/**/
-    color: white;
+    color:#F15B43 ;
 }
 div#header{/*Div para posicionar texto do header*/
     width: 380px;
@@ -40,7 +40,7 @@ div#header{/*Div para posicionar texto do header*/
     left: 10%;
 }
 /*textos do header*/
-div#laranja{
+div#laranja{ /*é especialmente uma palavra , só pra alterar a cor*/
     display: inline;
     color: #F15B43;
 }
@@ -50,7 +50,7 @@ div h1{
     color: black;
 }
 div p{
-    color: rgb(206, 206, 206);
+    color: rgba(128, 128, 128, 0.616);
     width: 70vw;
     font-size: 0.7em;
 }
