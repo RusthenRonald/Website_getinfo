@@ -14,7 +14,7 @@ body,html{
 }
 header{
     position: relative;
-    height: 550px;
+    height: 250px;
     background-image: url(../);
     background-position: left ;
     background-size: cover;
@@ -36,7 +36,7 @@ a:hover{/**/
 div#header{/*Div para posicionar texto do header*/
     width: 380px;
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 10%;
 }
 /*textos do header*/
@@ -55,34 +55,51 @@ div p{
     font-size: 0.7em;
 }
 /*div dos 3 blocos abaixo do header*/
+.container {
+    display: flex; /* Usar flexbox para alinhar as caixas lado a lado */
+    flex-wrap: wrap; /* Permitir que as caixas quebrem linha se necessário */
+    gap: 10px; /* Espaçamento entre as caixas */
+}
 .box {
+    position: relative;
     display: inline-block;
-    width: calc(33.33% - 3px); /* Ajustei a largura para incluir o espaço entre as divs */
+    width: calc(33.33% - 10px); /* Ajustei a largura para incluir o espaço entre as divs */
     padding: 20px;
     text-align: center;
     box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
     margin: 0; /* Removi margens extras */
     vertical-align: top; /* Alinhei as divs no topo */
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.box p{
+    color: white;
+}
+
 
 /* Cores diferentes para cada div */
 /* Estilo para cada div com imagem e cor de fundo */
 .box1 {
     background: 
-        linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), 
-        url('../img/comida.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 300px;
-}
-
-.box2 {
-    background: 
         linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), 
         url('../img/edu.jpg');
         background-size: cover;
         background-position: center;
-        height: 300px;
+        height: 200px;
+        
+}
+
+.box2 {
+    background: 
+        linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), 
+        url('../img/comida.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        
+        
 }
 
 .box3 {
@@ -91,7 +108,8 @@ div p{
         url('../img/saude.jpg');
         background-size: cover;
         background-position: center;
-        height: 300px;
+        height: 200px;
+        
 }
 
 form{/*formulário*/
