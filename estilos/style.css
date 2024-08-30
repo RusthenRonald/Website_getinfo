@@ -88,7 +88,7 @@ footer{
     background-color: rgba(0, 0, 0, 0.87);
 }
 footer a.footer{ /*Menus do rodapé*/
-    color: white;
+    color: #FE8F1F;
     font-size: 0.7em;
 }
 footer p{

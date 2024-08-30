@@ -76,7 +76,7 @@ Grandes telas : acima de 1200px
         margin-top: 15px;
     }
     footer a.footer{ /*Menus do rodapé*/
-        color: white;
+        color: #FE8F1F;
         font-size: 1.0em;
     }
     div#nav{ /*div da parte da navegação*/
@@ -87,6 +87,7 @@ Grandes telas : acima de 1200px
     div#nav p{ /*parágrafo da navegação*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
     div#popu{ /*div da parte causas populares*/
         position: absolute;
@@ -96,6 +97,7 @@ Grandes telas : acima de 1200px
     div#popu p{ /*parágrafo causas populares*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
     div#part{
         position: absolute;
@@ -105,6 +107,7 @@ Grandes telas : acima de 1200px
     div#part p{ /*parágrafo da parte participantes*/
         margin-top: 5px;
         font-size: 0.7em;
+        color: white;
     }
     div#cont{ /*div da parte contato*/
         position: absolute;
@@ -114,6 +117,7 @@ Grandes telas : acima de 1200px
     div#cont p{ /*parágrafo da parte contato*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
     
 }
@@ -192,7 +196,7 @@ Grandes telas : acima de 1200px
         background-color: rgba(0, 0, 0, 0.87);
     }
     footer a.footer{ /*Menus do rodapé*/
-        color: white;
+        color: #FE8F1F;
         font-size: 1.0em;
     }
     div#nav{ /*div da parte da navegação*/
@@ -203,6 +207,7 @@ Grandes telas : acima de 1200px
     div#nav p{ /*parágrafo da navegação*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
     div#popu{ /*div da parte causas populares*/
         position: absolute;
@@ -212,6 +217,7 @@ Grandes telas : acima de 1200px
     div#popu p{ /*parágrafo causas populares*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
     div#part{
         position: absolute;
@@ -221,6 +227,7 @@ Grandes telas : acima de 1200px
     div#part p{ /*parágrafo da parte participantes*/
         margin-top: 5px;
         font-size: 0.7em;
+        color: white;
     }
     div#cont{ /*div da parte contato*/
         position: absolute;
@@ -230,10 +237,11 @@ Grandes telas : acima de 1200px
     div#cont p{ /*parágrafo da parte contato*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
 }
 /*Monitor*/
-@media screen and (min-width:992px) and (max-width:1200px){
+@media screen and (min-width:992px) and (max-width:1300px){
     header{
         position: relative;
         height: 550px;
@@ -307,7 +315,7 @@ Grandes telas : acima de 1200px
         background-color: rgba(0, 0, 0, 0.87);
     }
     footer a.footer{ /*Menus do rodapé*/
-        color: white;
+        color: #FE8F1F;
         font-size: 1.0em;
     }
     div#nav{ /*div da parte da navegação*/
@@ -318,6 +326,7 @@ Grandes telas : acima de 1200px
     div#nav p{ /*parágrafo da navegação*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
     div#popu{ /*div da parte causas populares*/
         position: absolute;
@@ -327,6 +336,7 @@ Grandes telas : acima de 1200px
     div#popu p{ /*parágrafo causas populares*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
     div#part{
         position: absolute;
@@ -336,6 +346,7 @@ Grandes telas : acima de 1200px
     div#part p{ /*parágrafo da parte participantes*/
         margin-top: 5px;
         font-size: 0.7em;
+        color: white;
     }
     div#cont{ /*div da parte contato*/
         position: absolute;
@@ -345,10 +356,11 @@ Grandes telas : acima de 1200px
     div#cont p{ /*parágrafo da parte contato*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
 }
 /*Telas maiores que 1200px*/
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1300px) {
     header{
         position: relative;
         height: 550px;
@@ -422,8 +434,8 @@ Grandes telas : acima de 1200px
         background-color: rgba(0, 0, 0, 0.87);
     }
     footer a.footer{ /*Menus do rodapé*/
-        color: white;
-        font-size: 1.0em;
+        color: #FE8F1F;
+        font-size: 1.3em;
     }
     div#nav{ /*div da parte da navegação*/
         position: absolute;
@@ -433,6 +445,7 @@ Grandes telas : acima de 1200px
     div#nav p{ /*parágrafo da navegação*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
     div#popu{ /*div da parte causas populares*/
         position: absolute;
@@ -442,6 +455,7 @@ Grandes telas : acima de 1200px
     div#popu p{ /*parágrafo causas populares*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
     div#part{
         position: absolute;
@@ -449,8 +463,9 @@ Grandes telas : acima de 1200px
         left: 840px;
     }
     div#part p{ /*parágrafo da parte participantes*/
-        margin-top: 5px;
+        margin-top: 10px;
         font-size: 0.7em;
+        color: white;
     }
     div#cont{ /*div da parte contato*/
         position: absolute;
@@ -460,6 +475,7 @@ Grandes telas : acima de 1200px
     div#cont p{ /*parágrafo da parte contato*/
         margin-top: 20px;
         font-size: 0.8em;
+        color: white;
     }
     
 }
