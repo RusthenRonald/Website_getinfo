@@ -79,6 +79,7 @@ div p{
 }
 .box p{ /*parágrafos das caixas*/
     color: white;
+    font-size: 0.6em;
 }
 .box1 {
     background: 
