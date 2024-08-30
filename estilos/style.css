@@ -105,6 +105,10 @@ div p{
         background-position: center;
         height: 200px; 
 }
+main{
+    
+}
+
 form{/*formulário*/
     overflow: hidden;
     position: absolute;
