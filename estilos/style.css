@@ -102,7 +102,7 @@ div#nav p{ /*parágrafo da navegação*/
 div#popu{ /*div da parte causas populares*/
     position: absolute;
     top: 10px;
-    left: 165px;
+    left: 175px;
 }
 div#popu p{ /*parágrafo causas populares*/
     margin-top: 20px;
@@ -120,7 +120,7 @@ div#part p{ /*parágrafo da parte participantes*/
 div#cont{ /*div da parte contato*/
     position: absolute;
     top: 140px;
-    left: 160px;
+    left: 170px;
 }
 div#cont p{ /*parágrafo da parte contato*/
     margin-top: 20px;

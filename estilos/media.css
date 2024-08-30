@@ -298,7 +298,7 @@ Grandes telas : acima de 1200px
     div#nav{ /*div da parte da navegação*/
         position: absolute;
         top: 45px;
-        left: 40px;
+        left: 50px;
     }
     div#nav p{ /*parágrafo da navegação*/
         margin-top: 20px;
@@ -307,7 +307,7 @@ Grandes telas : acima de 1200px
     div#popu{ /*div da parte causas populares*/
         position: absolute;
         top: 45px;
-        left: 190px;
+        left: 240px;
     }
     div#popu p{ /*parágrafo causas populares*/
         margin-top: 20px;
@@ -316,7 +316,7 @@ Grandes telas : acima de 1200px
     div#part{
         position: absolute;
         top: 45px;
-        left: 410px;
+        left: 495px;
     }
     div#part p{ /*parágrafo da parte participantes*/
         margin-top: 5px;
@@ -325,7 +325,7 @@ Grandes telas : acima de 1200px
     div#cont{ /*div da parte contato*/
         position: absolute;
         top: 45px;
-        left: 650px;
+        left: 765px;
     }
     div#cont p{ /*parágrafo da parte contato*/
         margin-top: 20px;
@@ -408,7 +408,7 @@ Grandes telas : acima de 1200px
     div#nav{ /*div da parte da navegação*/
         position: absolute;
         top: 45px;
-        left: 40px;
+        left: 80px;
     }
     div#nav p{ /*parágrafo da navegação*/
         margin-top: 20px;
@@ -417,7 +417,7 @@ Grandes telas : acima de 1200px
     div#popu{ /*div da parte causas populares*/
         position: absolute;
         top: 45px;
-        left: 240px;
+        left: 400px;
     }
     div#popu p{ /*parágrafo causas populares*/
         margin-top: 20px;
@@ -426,7 +426,7 @@ Grandes telas : acima de 1200px
     div#part{
         position: absolute;
         top: 45px;
-        left: 510px;
+        left: 840px;
     }
     div#part p{ /*parágrafo da parte participantes*/
         margin-top: 5px;
@@ -435,7 +435,7 @@ Grandes telas : acima de 1200px
     div#cont{ /*div da parte contato*/
         position: absolute;
         top: 45px;
-        left: 810px;
+        left: 1310px;
     }
     div#cont p{ /*parágrafo da parte contato*/
         margin-top: 20px;
