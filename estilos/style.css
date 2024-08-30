@@ -54,6 +54,46 @@ div p{
     width: 70vw;
     font-size: 0.7em;
 }
+/*div dos 3 blocos abaixo do header*/
+.box {
+    display: inline-block;
+    width: calc(33.33% - 3px); /* Ajustei a largura para incluir o espaço entre as divs */
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
+    margin: 0; /* Removi margens extras */
+    vertical-align: top; /* Alinhei as divs no topo */
+}
+
+/* Cores diferentes para cada div */
+/* Estilo para cada div com imagem e cor de fundo */
+.box1 {
+    background: 
+        linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), 
+        url('../img/comida.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+}
+
+.box2 {
+    background: 
+        linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), 
+        url('../img/edu.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+}
+
+.box3 {
+    background: 
+    linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)),
+        url('../img/saude.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+}
+
 form{/*formulário*/
     overflow: hidden;
     position: absolute;
