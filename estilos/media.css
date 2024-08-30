@@ -10,8 +10,9 @@ Grandes telas : acima de 1200px
 @media screen and (min-width:550px) and (max-width:768px){
     header{
         position: relative;
-        height: 600px;
-        background-image: url(../img/pq.jpg);
+        height: 550px;
+        background-image: url(../);
+        background-size: cover;
         background-position: center;
     }
     nav{/*Menu*/
@@ -35,10 +36,14 @@ Grandes telas : acima de 1200px
         left: 10%;
     }
     /*textos do header*/
+    div#laranja{
+        display: inline;
+        color: #F15B43;
+    }
     div h1{ 
-        font-size: 1.7em;
+        font-size: 1.6em;
         width: 60vw;
-        color: white;
+        color: black;
     }
     div p{
         color: rgb(206, 206, 206);
@@ -116,9 +121,10 @@ Grandes telas : acima de 1200px
 @media screen and (min-width:768px) and (max-width:992px){
     header{
         position: relative;
-        height: 600px;
-        background-image: url(../img/pq.jpg);
+        height: 550px;
+        background-image: url(../);
         background-position: center;
+        background-size: cover;
     }
     nav{/*Menu*/
         text-align: center;
@@ -139,12 +145,16 @@ Grandes telas : acima de 1200px
         position: absolute;
         top: 30%;
         left: 10%;
+    } 
+    /*texto do header*/
+    div#laranja{
+        display: inline;
+        color: #F15B43;
     }
-    /*textos do header*/
     div h1{ 
         font-size: 1.9em;
         width: 60vw;
-        color: white;
+        color: black;
     }
     div p{
         color: rgb(206, 206, 206);
@@ -226,9 +236,10 @@ Grandes telas : acima de 1200px
 @media screen and (min-width:992px) and (max-width:1200px){
     header{
         position: relative;
-        height: 600px;
-        background-image: url(../img/pq.jpg);
+        height: 550px;
+        background-image: url(../);
         background-position: center;
+        background-size: cover;
     }
     nav{/*Menu*/
         text-align: center;
@@ -250,11 +261,15 @@ Grandes telas : acima de 1200px
         top: 30%;
         left: 10%;
     }
-    /*textos do header*/
+    /*texto do header*/
+    div#laranja{
+        display: inline;
+        color: #F15B43;
+    }
     div h1{ 
-        font-size: 2.1em;
+        font-size: 2.4em;
         width: 60vw;
-        color: white;
+        color: black;
     }
     div p{
         color: rgb(206, 206, 206);
@@ -336,9 +351,10 @@ Grandes telas : acima de 1200px
 @media screen and (min-width:1200px) {
     header{
         position: relative;
-        height: 600px;
-        background-image: url(../img/pq.jpg);
-        background-position: center;
+        height: 650px;
+        background-image: url(../);
+        background-position: bottom;
+        background-size: cover;
     }
     nav{/*Menu*/
         text-align: center;
@@ -360,11 +376,15 @@ Grandes telas : acima de 1200px
         top: 30%;
         left: 10%;
     }
-    /*textos do header*/
+    /*texto do header*/
+    div#laranja{
+        display: inline;
+        color: #F15B43;
+    }
     div h1{ 
-        font-size: 1.9em;
+        font-size: 2.9em;
         width: 60vw;
-        color: white;
+        color: black;
     }
     div p{
         color: rgb(206, 206, 206);

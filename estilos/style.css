@@ -15,8 +15,9 @@ body,html{
 header{
     position: relative;
     height: 550px;
-    background-image: url(../img/pq.jpg);
-    background-position: center;
+    background-image: url(../);
+    background-position: left ;
+    background-size: cover;
 }
 nav{/*Menu*/
     text-align: center;
@@ -39,11 +40,14 @@ div#header{/*Div para posicionar texto do header*/
     left: 10%;
 }
 /*textos do header*/
+div#laranja{
+    display: inline;
+    color: #F15B43;
+}
 div h1{ 
-    
     font-size: 1.3em;
     width: 60vw;
-    color: white;
+    color: black;
 }
 div p{
     color: rgb(206, 206, 206);
