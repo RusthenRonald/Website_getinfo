@@ -55,15 +55,18 @@ div p{
     font-size: 0.7em;
 }
 /*div dos 3 blocos abaixo do header*/
-.container {
+/* Cores diferentes para cada div */
+/* Estilo para cada div com imagem e cor de fundo */
+
+.container {/*posicionamento dos box*/
     display: flex; /* Usar flexbox para alinhar as caixas lado a lado */
     flex-wrap: wrap; /* Permitir que as caixas quebrem linha se necessário */
-    gap: 10px; /* Espaçamento entre as caixas */
+    gap: 0px; /* Espaçamento entre as caixas */
 }
-.box {
+.box { /*configuração dos box*/
     position: relative;
     display: inline-block;
-    width: calc(33.33% - 10px); /* Ajustei a largura para incluir o espaço entre as divs */
+    width: calc(33.33% - 0px); /* Ajustei a largura para incluir o espaço entre as divs */
     padding: 20px;
     text-align: center;
     box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
@@ -74,13 +77,9 @@ div p{
     align-items: center;
     justify-content: center;
 }
-.box p{
+.box p{ /*parágrafos das caixas*/
     color: white;
 }
-
-
-/* Cores diferentes para cada div */
-/* Estilo para cada div com imagem e cor de fundo */
 .box1 {
     background: 
         linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), 
@@ -88,9 +87,7 @@ div p{
         background-size: cover;
         background-position: center;
         height: 200px;
-        
 }
-
 .box2 {
     background: 
         linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), 
@@ -98,20 +95,15 @@ div p{
         background-size: cover;
         background-position: center;
         height: 200px;
-        
-        
 }
-
 .box3 {
     background: 
     linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)),
         url('../img/saude.jpg');
         background-size: cover;
         background-position: center;
-        height: 200px;
-        
+        height: 200px; 
 }
-
 form{/*formulário*/
     overflow: hidden;
     position: absolute;
@@ -121,8 +113,7 @@ form{/*formulário*/
     height: 180px;
     width: 80vw;
     border-radius: 8px;
-    padding: 20px;
-    
+    padding: 20px; 
 }
 form h2{
     font-size: 1em;
@@ -188,5 +179,3 @@ div#cont p{ /*parágrafo da parte contato*/
     margin-top: 20px;
     font-size: 0.5em;
 }
-
-        
