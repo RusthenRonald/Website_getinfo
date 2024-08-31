@@ -83,7 +83,7 @@ div p{
 }
 .box1 {
     background: 
-        linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.2)), 
+        linear-gradient(rgba(32, 177, 153, 0.5), rgba(32, 177, 153, 0.5)), 
         url('../img/edu.jpg');
         background-size: cover;
         background-position: center;
@@ -91,7 +91,7 @@ div p{
 }
 .box2 {
     background: 
-        linear-gradient(rgba(255, 99, 71, 0.3), rgba(255, 99, 71, 0.3)), 
+        linear-gradient(rgba(255, 99, 71, 0.5), rgba(255, 99, 71, 0.5)), 
         url('../img/comida.jpg');
         background-size: cover;
         background-position: center;
@@ -99,7 +99,7 @@ div p{
 }
 .box3 {
     background: 
-    linear-gradient(rgba(235, 189, 42, 0.3), rgba(235, 189, 42, 0.3)),
+    linear-gradient(rgba(235, 189, 42, 0.5), rgba(235, 189, 42, 0.5)),
         url('../img/saude.jpg');
         background-size: cover;
         background-position: center;
