@@ -8,10 +8,10 @@ Grandes telas : acima de 1200px
 */
 /*Tablet*/
 @media screen and (min-width:550px) and (max-width:768px){
-    header{
+    header{/*Cabeçalho*/
         position: relative;
         height: 350px;
-        background-image: url(../);
+        background-image: url(../img/header.png);
         background-size: cover;
         background-position: center;
     }
@@ -24,9 +24,9 @@ Grandes telas : acima de 1200px
     a{/*Links internos do menu*/
         text-decoration: none;
         padding-left: 10px;
-        color: rgb(161, 161, 161);
+        color: black;
     }
-    a:hover{/**/
+    a:hover{/*Efeito do menu*/
         color: #F15B43;
     }
     div#header{/*Div para posicionar texto do header*/
@@ -36,27 +36,30 @@ Grandes telas : acima de 1200px
         left: 10%;
     }
     /*textos do header*/
-    div#laranja{
+    div#laranja{/*div só para mudar cor de um letra*/
         display: inline;
         color: #F15B43;
     }
-    div h1{ 
+    div h1{ /*Titulo do header*/
         font-size: 1.6em;
         width: 60vw;
         color: black;
     }
-    div p{
+    div p{/*Parágrafo do header*/
         color: rgba(128, 128, 128, 0.616);
         width: 40vw;
         font-size: 0.8em;
     }
-    .box p{ /*parágrafos das caixas*/
+/*fim de cabeçalho*/
+ 
+    /**/
+    .box p{ /*parágrafos das caixas em geral*/
         color: white;
         font-size: 1.6em;
     }
     .box1 {
         background: 
-            linear-gradient(rgba(32, 177, 153, 0.6), rgba(32, 177, 153, 0.6)), 
+            linear-gradient(rgba(32, 177, 153, 0.7), rgba(32, 177, 153, 0.7)), 
             url('../img/edu.jpg');
             background-size: cover;
             background-position: center;
@@ -64,7 +67,7 @@ Grandes telas : acima de 1200px
     }
     .box2 {
         background: 
-            linear-gradient(rgba(255, 99, 71, 0.6), rgba(255, 99, 71, 0.6)), 
+            linear-gradient(rgba(255, 99, 71, 0.7), rgba(255, 99, 71, 0.7)), 
             url('../img/comida.jpg');
             background-size: cover;
             background-position: center;
@@ -72,37 +75,19 @@ Grandes telas : acima de 1200px
     }
     .box3 {
         background: 
-        linear-gradient(rgba(235, 189, 42, 0.6), rgba(235, 189, 42, 0.6)),
-            url('../img/saude.jpg');
+        linear-gradient(rgba(235, 189, 42, 0.7), rgba(235, 189, 42, 0.7)),
+            url('../img/saude\ \(2\).jpg');
             background-size: cover;
             background-position: center;
             height: 250px; 
     }
-    form{/*formulário*/
-        overflow: hidden;
-        position: absolute;
-        bottom: 35px;
-        left: 55px;
-        background-color: white;
-        height: 200px;
-        width: 450px;
-        border-radius: 8px;
-        padding: 20px;
-        
-    }
-    form h2{
-        font-size: 1.2em;
-    }
-    form>input[type=submit]{/*botão de doar*/
-        display: block;
-        font-size: 1em;
-        width: 100%;
-        height: 30px;
-        background-color: #f3c35ad7;
-        border: none;
-        border-radius: 20px;
-        margin-top: 15px;
-    }
+/*fim das caixas*/ 
+
+/*Nossa Visão e Missão*/
+
+/*fim */ 
+
+    /*Footer ou Rodapé*/
     footer a.footer{ /*Menus do rodapé*/
         color: #FE8F1F;
         font-size: 1.0em;
@@ -151,10 +136,10 @@ Grandes telas : acima de 1200px
 }
 /*desktop*/
 @media screen and (min-width:768px) and (max-width:992px){
-    header{
+    header{ /*cabeçalho*/
         position: relative;
         height: 350px;
-        background-image: url(../);
+        background-image: url(../img/header.png);
         background-position: center;
         background-size: cover;
     }
@@ -167,9 +152,9 @@ Grandes telas : acima de 1200px
     a{/*Links internos do menu*/
         text-decoration: none;
         padding-left: 10px;
-        color: rgb(161, 161, 161);
+        color: black;
     }
-    a:hover{/**/
+    a:hover{/*efeito do menu*/
         color: #F15B43;
     }
     div#header{/*Div para posicionar texto do header*/
@@ -179,27 +164,30 @@ Grandes telas : acima de 1200px
         left: 10%;
     } 
     /*texto do header*/
-    div#laranja{
+    div#laranja{/*div só para mudar cor de um letra*/
         display: inline;
         color: #F15B43;
     }
-    div h1{ 
+    div h1{ /*tiulo do header*/
         font-size: 1.9em;
         width: 60vw;
         color: black;
     }
-    div p{
+    div p{/*Parágrafo do cabeçalho*/
         color: rgba(128, 128, 128, 0.616);
         width: 50vw;
         font-size: 0.9em;
     }
+/*Fim do cabeçãlho*/
+
+    /*Caixas*/
     .box p{ /*parágrafos das caixas*/
         color: white;
         font-size: 2.0em;
     }
     .box1 {
         background: 
-            linear-gradient(rgba(32, 177, 153, 0.6), rgba(32, 177, 153, 0.6)), 
+            linear-gradient(rgba(32, 177, 153, 0.7), rgba(32, 177, 153, 0.7)), 
             url('../img/edu.jpg');
             background-size: cover;
             background-position: center;
@@ -207,7 +195,7 @@ Grandes telas : acima de 1200px
     }
     .box2 {
         background: 
-            linear-gradient(rgba(255, 99, 71, 0.6), rgba(255, 99, 71, 0.6)), 
+            linear-gradient(rgba(255, 99, 71, 0.7), rgba(255, 99, 71, 0.7)), 
             url('../img/comida.jpg');
             background-size: cover;
             background-position: center;
@@ -215,37 +203,18 @@ Grandes telas : acima de 1200px
     }
     .box3 {
         background: 
-        linear-gradient(rgba(235, 189, 42, 0.6), rgba(235, 189, 42, 0.6)),
-            url('../img/saude.jpg');
+        linear-gradient(rgba(235, 189, 42, 0.7), rgba(235, 189, 42, 0.7)),
+            url('../img/saude\ \(2\).jpg');
             background-size: cover;
             background-position: center;
             height: 300px; 
     }
-    form{/*formulário*/
-        overflow: hidden;
-        position: absolute;
-        bottom: 35px;
-        left: 65px;
-        background-color: white;
-        height: 200px;
-        width: 450px;
-        border-radius: 8px;
-        padding: 20px;
-        
-    }
-    form h2{
-        font-size: 1.4em;
-    }
-    form>input[type=submit]{/*botão de doar*/
-        display: block;
-        font-size: 1em;
-        width: 100%;
-        height: 30px;
-        background-color: #f3c35ad7;
-        border: none;
-        border-radius: 20px;
-        margin-top: 15px;
-    }
+/*Fim das caixas*/
+     
+    /*Nossa missão e visão*/
+/*Fim*/
+
+    /*Footer ou Rodapé*/
     footer{
         height: 350px;
         position: relative;
@@ -302,7 +271,7 @@ Grandes telas : acima de 1200px
         background-color: rgba(255, 255, 255, 0.158);
         position: relative;
         height: 450px;
-        background-image: url(../);
+        background-image: url(../img/header.png);
         background-position: center;
         background-size: cover;
         
@@ -348,7 +317,7 @@ Grandes telas : acima de 1200px
     }
     .box1 {
         background: 
-            linear-gradient(rgba(32, 177, 153, 0.6), rgba(32, 177, 153, 0.6)), 
+            linear-gradient(rgba(32, 177, 153, 0.7), rgba(32, 177, 153, 0.7)), 
             url('../img/edu.jpg');
             background-size: cover;
             background-position: center;
@@ -357,7 +326,7 @@ Grandes telas : acima de 1200px
     }
     .box2 {
         background: 
-            linear-gradient(rgba(255, 99, 71, 0.6), rgba(255, 99, 71, 0.6)), 
+            linear-gradient(rgba(255, 99, 71, 0.7), rgba(255, 99, 71, 0.7)), 
             url('../img/comida.jpg');
             background-size: cover;
             background-position: center;
@@ -365,37 +334,15 @@ Grandes telas : acima de 1200px
     }
     .box3 {
         background: 
-        linear-gradient(rgba(235, 189, 42, 0.6), rgba(235, 189, 42, 0.6)),
-            url('../img/saude.jpg');
+        linear-gradient(rgba(235, 189, 42, 0.7), rgba(235, 189, 42, 0.7)),
+            url('../img/saude\ \(2\).jpg');
             background-size: cover;
             background-position: center;
             height: 350px; 
     }
-    form{/*formulário*/
-        overflow: hidden;
-        position: absolute;
-        bottom: 35px;
-        left: 65px;
-        background-color: white;
-        height: 200px;
-        width: 450px;
-        border-radius: 8px;
-        padding: 20px;
-        
-    }
-    form h2{
-        font-size: 1.4em;
-    }
-    form>input[type=submit]{/*botão de doar*/
-        display: block;
-        font-size: 1em;
-        width: 100%;
-        height: 30px;
-        background-color: #f3c35ad7;
-        border: none;
-        border-radius: 20px;
-        margin-top: 15px;
-    }
+/*fim*/
+ 
+    /*Footer ou Rodapé*/
     footer{
         height: 350px;
         position: relative;
@@ -446,12 +393,12 @@ Grandes telas : acima de 1200px
         color: white;
     }
 }
-/*Telas maiores que 1200px*/
+/*Telas maiores que 1300px*/
 @media screen and (min-width:1300px) {
     header{
         position: relative;
         height: 550px;
-        background-image: url(../img/foto.png);
+        background-image: url(../img/header.png);
         background-position: center;
         background-size: cover;
     }
@@ -464,7 +411,7 @@ Grandes telas : acima de 1200px
     a{/*Links internos do menu*/
         text-decoration: none;
         padding-left: 10px;
-        color: rgba(0, 0, 0, 0.664);
+        color: black;
     }
     a:hover{/**/
         color: #F15B43;
@@ -492,11 +439,11 @@ Grandes telas : acima de 1200px
     }
     .box p{ /*parágrafos das caixas*/
         color: white;
-        font-size: 2.9em;
+        font-size: 3.0em;
     }
     .box1 {
         background: 
-            linear-gradient(rgba(32, 177, 153, 0.6), rgba(32, 177, 153, 0.6)), 
+            linear-gradient(rgba(32, 177, 153, 0.7), rgba(32, 177, 153, 0.7)), 
             url('../img/edu.jpg');
             background-size: cover;
             background-position: center;
@@ -504,7 +451,7 @@ Grandes telas : acima de 1200px
     }
     .box2 {
         background: 
-            linear-gradient(rgba(255, 99, 71, 0.6), rgba(255, 99, 71, 0.6)), 
+            linear-gradient(rgba(255, 99, 71, 0.7), rgba(255, 99, 71, 0.7)), 
             url('../img/comida.jpg');
             background-size: cover;
             background-position: center;
@@ -512,36 +459,11 @@ Grandes telas : acima de 1200px
     }
     .box3 {
         background: 
-        linear-gradient(rgba(235, 189, 42, 0.6), rgba(235, 189, 42, 0.6)),
-            url('../img/saude.jpg');
+        linear-gradient(rgba(235, 189, 42, 0.7), rgba(235, 189, 42, 0.7)),
+            url('../img/saude\ \(2\).jpg');
             background-size: cover;
-            background-position: center;
+            background-position: bottom;
             height: 400px; 
-    }
-    form{/*formulário*/
-        overflow: hidden;
-        position: absolute;
-        bottom: 35px;
-        left: 195px;
-        background-color: white;
-        height: 200px;
-        width: 450px;
-        border-radius: 8px;
-        padding: 20px;
-        
-    }
-    form h2{
-        font-size: 1.4em;
-    }
-    form>input[type=submit]{/*botão de doar*/
-        display: block;
-        font-size: 1em;
-        width: 100%;
-        height: 30px;
-        background-color: #f3c35ad7;
-        border: none;
-        border-radius: 20px;
-        margin-top: 15px;
     }
     footer{
         height: 350px;

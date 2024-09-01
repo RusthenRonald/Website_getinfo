@@ -15,7 +15,7 @@ body,html{
 header{
     position: relative;
     height: 250px;
-    background-image: url(../);
+    background-image: url(../img/header.png);
     background-position: left ;
     background-size: cover;
 }
@@ -28,7 +28,7 @@ nav{/*Menu*/
 a{/*Links internos do menu*/
     text-decoration: none;
     padding-left: 10px;
-    color: rgb(161, 161, 161);
+    color: black;
 }
 a:hover{/**/
     color:#F15B43 ;
@@ -83,7 +83,7 @@ div p{
 }
 .box1 {
     background: 
-        linear-gradient(rgba(32, 177, 153, 0.5), rgba(32, 177, 153, 0.5)), 
+        linear-gradient(rgba(32, 177, 153, 0.7), rgba(32, 177, 153, 0.7)), 
         url('../img/edu.jpg');
         background-size: cover;
         background-position: center;
@@ -91,7 +91,7 @@ div p{
 }
 .box2 {
     background: 
-        linear-gradient(rgba(255, 99, 71, 0.5), rgba(255, 99, 71, 0.5)), 
+        linear-gradient(rgba(255, 99, 71, 0.7), rgba(255, 99, 71, 0.7)), 
         url('../img/comida.jpg');
         background-size: cover;
         background-position: center;
@@ -99,12 +99,13 @@ div p{
 }
 .box3 {
     background: 
-    linear-gradient(rgba(235, 189, 42, 0.5), rgba(235, 189, 42, 0.5)),
-        url('../img/saude.jpg');
+    linear-gradient(rgba(235, 189, 42, 0.7), rgba(235, 189, 42, 0.7)),
+        url('../img/saude\ \(2\).jpg');
         background-size: cover;
         background-position: center;
         height: 200px; 
 }
+
 main{
     
 }
@@ -160,7 +161,7 @@ div#nav p{ /*parágrafo da navegação*/
 div#popu{ /*div da parte causas populares*/
     position: absolute;
     top: 10px;
-    left: 175px;
+    left: 195px;
 }
 div#popu p{ /*parágrafo causas populares*/
     margin-top: 20px;
@@ -178,7 +179,7 @@ div#part p{ /*parágrafo da parte participantes*/
 div#cont{ /*div da parte contato*/
     position: absolute;
     top: 140px;
-    left: 170px;
+    left: 185px;
 }
 div#cont p{ /*parágrafo da parte contato*/
     margin-top: 20px;
