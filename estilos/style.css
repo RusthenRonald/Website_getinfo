@@ -80,6 +80,8 @@ div p{
 .box p{ /*parágrafos das caixas*/
     color: white;
     font-size: 1.0em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
 }
 .box1 {
     background: 
@@ -110,33 +112,6 @@ main{
     
 }
 
-form{/*formulário*/
-    overflow: hidden;
-    position: absolute;
-    bottom: 35px;
-    left: 25px;
-    background-color: white;
-    height: 180px;
-    width: 80vw;
-    border-radius: 8px;
-    padding: 20px; 
-}
-form h2{
-    font-size: 1em;
-}
-form>input[type=submit]{/*botão de doar*/
-    display: block;
-    font-size: 0.9em;
-    width: 100%;
-    height: 30px;
-    background-color: #f3c35a;
-    border: none;
-    border-radius: 20px;
-    margin-top: 15px;
-}
-form>input[type=submit]:hover{/*botão de doar*/
-    background-color: #f3c35a9f;
-}
 footer{
     height: 390px;
     position: relative;
