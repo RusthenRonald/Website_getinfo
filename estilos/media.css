@@ -10,7 +10,7 @@ Grandes telas : acima de 1200px
 @media screen and (min-width:500px) and (max-width:830px){
     header{/*Cabeçalho*/
         position: relative;
-        height: 550px;
+        height: 590px;
         background-image: url(../img/header.png);
         background-size: cover;
         background-position: center;
@@ -30,9 +30,9 @@ Grandes telas : acima de 1200px
         color: #F15B43;
     }
     div#header{/*Div para posicionar texto do header*/
-        width: 380px;
+        width: 400px;
         position: absolute;
-        top: 20%;
+        top: 15%;
         left: 10%;
     }
     /*textos do header*/
@@ -41,7 +41,7 @@ Grandes telas : acima de 1200px
         color: #F15B43;
     }
     div h1{ /*Titulo do header*/
-        font-size: 1.8em;
+        font-size: 2.0em;
         width: 90vw;
         color: black;
     }
@@ -52,6 +52,9 @@ Grandes telas : acima de 1200px
     }
 /*fim de cabeçalho*/
     /*Inico do Formulário*/
+    /* Estilo para as mini caixas de valores */
+
+
     .campo {
         margin-bottom: 15px; /* Espaço abaixo de cada campo */
         padding: 3px; /* Espaço interno dentro do campo */
@@ -64,7 +67,7 @@ Grandes telas : acima de 1200px
     .campo input {
         border: none; /* Remove a borda do input */
         padding: 5px; /* Espaço interno dentro do input */
-        font-size: 16px; /* Tamanho da fonte */
+        font-size: 12px; /* Tamanho da fonte */
         flex: 1; /* Faz o input ocupar o máximo de espaço disponível */
     }
     
@@ -73,16 +76,37 @@ Grandes telas : acima de 1200px
         margin-right: 10px; /* Espaço entre o ícone e o input */
     }
     
+    /* Estilo para as mini caixas de valores */
+    .doacao-valores {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .valor-opcao {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border: 2px solid #ccc; /* Borda ao redor da opção */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 5px 10px; /* Espaçamento interno */
+    }
+    .valor-opcao:hover{
+        border-color: #f15a437e;
+    }
+    .valor-opcao input {
+        display: none; /* Esconde o botão de rádio padrão */
+    }
 
     div#Formulario form{
         position: absolute;
         background-color: white;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
-        height: 235px;
+        height: 300px;
         width: 60vw;
         border-radius: 10px;
         padding: 20px;
-        top: 260px;
+        top: 240px;
         left: 110px;
     }
     div#Formulario form h2{
@@ -226,7 +250,7 @@ Grandes telas : acima de 1200px
 @media screen and (min-width:830px) and (max-width:992px){
     header{ /*cabeçalho*/
         position: relative;
-        height: 350px;
+        height: 450px;
         background-image: url(../img/header.png);
         background-position: center;
         background-size: cover;
@@ -289,16 +313,37 @@ Grandes telas : acima de 1200px
         margin-right: 10px; /* Espaço entre o ícone e o input */
     }
     
+    /* Estilo para as mini caixas de valores */
+    .doacao-valores {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .valor-opcao {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border: 2px solid #ccc; /* Borda ao redor da opção */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 5px 10px; /* Espaçamento interno */
+    }
+    .valor-opcao:hover{
+        border-color: #f15a437e;
+    }
+    .valor-opcao input {
+        display: none; /* Esconde o botão de rádio padrão */
+    }
     div#Formulario form{
         position: absolute;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.233);
         background-color: white;
-        height: 245px;
+        height: 315px;
         width: 40vw;
         border-radius: 10px;
         padding: 20px;
         top: 70px;
-        left: 415px;
+        left: 455px;
     }
     div#Formulario form h2{
         font-size: 1.3em;
@@ -487,33 +532,53 @@ Grandes telas : acima de 1200px
         font-size: 1.0em;
     }
 /*fim do header*/
-/*Inico do Formulário*/
-.campo {
-    margin-bottom: 15px; /* Espaço abaixo de cada campo */
-    padding: 10px; /* Espaço interno dentro do campo */
-    border: 2px solid #ccc; /* Cor e espessura da borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    display: flex; /* Para alinhar ícone e input */
-    align-items: center; /* Alinhar verticalmente o ícone e o texto */
-}
+    /*Inico do Formulário*/
+    .campo {
+        margin-bottom: 15px; /* Espaço abaixo de cada campo */
+        padding: 3px; /* Espaço interno dentro do campo */
+        border: 2px solid #ccc; /* Cor e espessura da borda */
+        border-radius: 5px; /* Bordas arredondadas */
+        display: flex; /* Para alinhar ícone e input */
+        align-items: center; /* Alinhar verticalmente o ícone e o texto */
+    }
 
-.campo input {
-    border: none; /* Remove a borda do input */
-    padding: 5px; /* Espaço interno dentro do input */
-    font-size: 16px; /* Tamanho da fonte */
-    flex: 1; /* Faz o input ocupar o máximo de espaço disponível */
-}
+    .campo input {
+        border: none; /* Remove a borda do input */
+        padding: 5px; /* Espaço interno dentro do input */
+        font-size: 16px; /* Tamanho da fonte */
+        flex: 1; /* Faz o input ocupar o máximo de espaço disponível */
+    }
 
-.campo span.material-symbols-outlined {
-    font-size: 24px; /* Tamanho do ícone */
-    margin-right: 10px; /* Espaço entre o ícone e o input */
-}
+    .campo span.material-symbols-outlined {
+        font-size: 24px; /* Tamanho do ícone */
+        margin-right: 10px; /* Espaço entre o ícone e o input */
+    }
+    /* Estilo para as mini caixas de valores */
+    .doacao-valores {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
 
+    .valor-opcao {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border: 2px solid #ccc; /* Borda ao redor da opção */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 5px 10px; /* Espaçamento interno */
+    }
+    .valor-opcao:hover{
+        border-color: #f15a437e;
+    }
+    .valor-opcao input {
+        display: none; /* Esconde o botão de rádio padrão */
+    }
     div#Formulario form{
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.24);
         position: absolute;
         background-color: white;
-        height: 300px;
+        height: 315px;
         width: 30vw;
         border-radius: 10px;
         padding: 20px;
@@ -662,7 +727,7 @@ Grandes telas : acima de 1200px
 @media screen and (min-width:1450px) {
     header{
         position: relative;
-        height: 550px;
+        height: 650px;
         background-image: url(../img/header.png);
         background-position: center;
         background-size: cover;
@@ -724,12 +789,33 @@ Grandes telas : acima de 1200px
     font-size: 24px; /* Tamanho do ícone */
     margin-right: 10px; /* Espaço entre o ícone e o input */
 }
+    /* Estilo para as mini caixas de valores */
+    .doacao-valores {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
 
+    .valor-opcao {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border: 2px solid #ccc; /* Borda ao redor da opção */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 5px 10px; /* Espaçamento interno */
+    }
+    .valor-opcao:hover{
+        border-color: #f15a437e;
+    }
+    .valor-opcao input {
+        display: none; /* Esconde o botão de rádio padrão */
+    }
+    /*Caixas de nome , email e botao*/
     div#Formulario form{
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
         position: absolute;
         background-color: white;
-        height: 300px;
+        height: 350px;
         width: 400px;
         border-radius: 10px;
         padding: 20px;

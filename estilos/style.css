@@ -14,7 +14,7 @@ body,html{
 }
 header{
     position: relative;
-    height: 460px;
+    height: 480px;
     background-image: url(../img/header.png);
     background-position: left ;
     background-size: cover;
@@ -56,6 +56,28 @@ div p{
 }
 /*Fim do header*/
     /*Inico do Formulário*/
+    /* Estilo para as mini caixas de valores */
+    .doacao-valores {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .valor-opcao {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        font-size: 0.9em;
+        border: 2px solid #ccc; /* Borda ao redor da opção */
+        border-radius: 5px ; /* Bordas arredondadas */
+        padding: 3px 3px;/* Espaçamento interno */
+    }
+    .valor-opcao:hover{
+        border-color: #f15a437e;
+    }
+    .valor-opcao input {
+        display: none; /* Esconde o botão de rádio padrão */
+    }
     .campo {
         margin-bottom: 15px; /* Espaço abaixo de cada campo */
         padding: 2px; /* Espaço interno dentro do campo */
@@ -81,7 +103,7 @@ div p{
         position: absolute;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
         background-color: white;
-        height: 205px;
+        height: 248px;
         width: 80vw;
         border-radius: 10px;
         padding: 20px;
@@ -98,7 +120,7 @@ div p{
         font-size: 0.7em;
         width: 95%;
         height: 30px;
-        margin-top: 5px;
+        margin-top: 3px;
         border-radius: 20px;
         border: 0px;
         background-color: #E5BA27;
@@ -114,7 +136,7 @@ div p{
         font-size: 0.7em;
         width: 100%;
         height: 40px;
-        margin-top: 5px;
+        
     }
     form >a#botao:hover{
         color: #F15B43;
