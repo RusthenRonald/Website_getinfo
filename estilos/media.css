@@ -52,7 +52,25 @@ Grandes telas : acima de 1200px
     }
 /*fim de cabeçalho*/
  
-    /**/
+    /*Inicio das Caixas*/
+    .box { /*configuração dos box*/
+        position: relative;
+        display: inline-block;
+        width: calc(33.33% - 0px); /* Ajustei a largura para incluir o espaço entre as divs */
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
+        margin: 0; /* Removi margens extras */
+        vertical-align: top; /* Alinhei as divs no topo */
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Adicionado */
+    }
+    .box:hover {
+        transform: scale(1.05); /* Adicionado */
+    }
     .box p{ /*parágrafos das caixas em geral*/
         color: white;
         font-size: 1.6em;
@@ -182,7 +200,25 @@ Grandes telas : acima de 1200px
     }
 /*Fim do cabeçãlho*/
 
-    /*Caixas*/
+    /*Inicio das caixas*/
+    .box { /*configuração dos box*/
+        position: relative;
+        display: inline-block;
+        width: calc(33.33% - 0px); /* Ajustei a largura para incluir o espaço entre as divs */
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
+        margin: 0; /* Removi margens extras */
+        vertical-align: top; /* Alinhei as divs no topo */
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Adicionado */
+    }
+    .box:hover {
+        transform: scale(1.05); /* Adicionado */
+    }
     .box p{ /*parágrafos das caixas*/
         color: white;
         font-size: 2.0em;
@@ -314,6 +350,27 @@ Grandes telas : acima de 1200px
         color: rgba(128, 128, 128, 0.616);
         width: 490px;
         font-size: 1.0em;
+    }
+/*fim do header*/
+
+    /*Inicio das caixas*/
+    .box { /*configuração dos box*/
+        position: relative;
+        display: inline-block;
+        width: calc(33.33% - 0px); /* Ajustei a largura para incluir o espaço entre as divs */
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
+        margin: 0; /* Removi margens extras */
+        vertical-align: top; /* Alinhei as divs no topo */
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Adicionado */
+    }
+    .box:hover {
+        transform: scale(1.05); /* Adicionado */
     }
     .box p{ /*parágrafos das caixas*/
         color: white;
@@ -461,9 +518,6 @@ Grandes telas : acima de 1200px
     .box:hover {
         transform: scale(1.05); /* Adicionado */
     }
-    .box:hover p {
-        color:#d3d3d3; /* Adicionado */
-    }    
     .box p{ /*parágrafos das caixas*/
         color: white;
         font-size: 3.0em;
