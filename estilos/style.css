@@ -11,6 +11,7 @@ body,html{
     width: 100vw;
     overflow: hidden;
     overflow-y: auto;
+    scroll-behavior: smooth;
 }
 header{
     position: relative;
@@ -149,17 +150,16 @@ div p{
     display: flex; /* Usar flexbox para alinhar as caixas lado a lado */
     flex-wrap: wrap; /* Permitir que as caixas quebrem linha se necessário */
     gap: 0px; /* Espaçamento entre as caixas */
+    
 }
 .box { /*configuração dos box*/
     position: relative;
     display: inline-block;
     width: calc(33.33% - 0px); /* Ajustei a largura para incluir o espaço entre as divs */
-    padding: 20px;
     text-align: center;
     box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
     margin: 0; /* Removi margens extras */
     vertical-align: top; /* Alinhei as divs no topo */
-    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,6 +171,7 @@ div p{
     color: white;
     font-size: 0.9em;
     font-weight: bold;
+    
 }
 .box1 {
     background: 

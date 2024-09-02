@@ -6,6 +6,18 @@ Tablet: 768px até 992px
 Desktop :992px até 1200px
 Grandes telas : acima de 1200px
 */
+/* Telas menores que 500px */
+@media screen and (max-width: 499px) {
+    .container {
+        flex-direction: column; /* Muda a direção do flexbox para coluna */
+        align-items: center; /* Centraliza as caixas horizontalmente */
+    }
+    .box {
+        width: 100%; /* Define a largura das caixas para 100% da largura do contêiner */
+        margin: 0; /* Remove qualquer margem extra */
+    }
+}
+
 /*Tablet*/
 @media screen and (min-width:500px) and (max-width:830px){
     header{/*Cabeçalho*/
@@ -103,11 +115,11 @@ Grandes telas : acima de 1200px
         background-color: white;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
         height: 300px;
-        width: 60vw;
+        width: 70vw;
         border-radius: 10px;
         padding: 20px;
         top: 240px;
-        left: 110px;
+        left: 60px;
     }
     div#Formulario form h2{
         font-size: 1.0em;
@@ -145,6 +157,8 @@ Grandes telas : acima de 1200px
         display: flex; /* Usar flexbox para alinhar as caixas lado a lado */
         flex-wrap: wrap; /* Permitir que as caixas quebrem linha se necessário */
         gap: 0px; /* Espaçamento entre as caixas */
+        flex-direction: column; /* Muda a direção do flexbox para coluna */
+        align-items: center; /* Centraliza as caixas horizontalmente */
     }
     .box { /*configuração dos box*/
         position: relative;
@@ -168,7 +182,10 @@ Grandes telas : acima de 1200px
         color: white;
         font-size: 1.5em;
         font-weight: bold;
+        width: 100%; /* Define a largura das caixas para 100% da largura do contêiner */
+        margin: 0; /* Remove o espaçamento entre as caixas */
     }
+    
     .box1 {
         background: 
             linear-gradient(rgba(32, 177, 153, 0.7), rgba(32, 177, 153, 0.7)), 
@@ -246,6 +263,19 @@ Grandes telas : acima de 1200px
     }
     
 }
+/* Telas entre 500px e 830px */
+@media screen and (min-width: 500px) and (max-width: 830px) {
+    .container {
+        flex-direction: column; /* Muda a direção do flexbox para coluna */
+        align-items: center; /* Centraliza as caixas horizontalmente */
+    }
+    .box {
+        width: 100%; /* Define a largura das caixas para 100% da largura do contêiner */
+        margin: 0; /* Remove o espaçamento entre as caixas */
+    }
+}
+
+
 /*desktop*/
 @media screen and (min-width:830px) and (max-width:992px){
     header{ /*cabeçalho*/
