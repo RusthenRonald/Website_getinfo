@@ -633,6 +633,7 @@ Grandes telas : acima de 1200px
         font-size: 1.2em;
     }
     div#Formulario form{
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
         position: absolute;
         background-color: white;
         height: 300px;
