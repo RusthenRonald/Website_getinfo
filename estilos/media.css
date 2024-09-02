@@ -569,8 +569,9 @@ Grandes telas : acima de 1200px
         padding: 5px 10px; /* Espaçamento interno */
     }
     .valor-opcao:hover{
-        border-color: #f15a437e;
-    }
+    border-color: #f15a437e; /* Cor da borda ao passar o mouse ou quando selecionado */
+}
+
     .valor-opcao input {
         display: none; /* Esconde o botão de rádio padrão */
     }
@@ -804,9 +805,10 @@ Grandes telas : acima de 1200px
         border-radius: 5px; /* Bordas arredondadas */
         padding: 5px 10px; /* Espaçamento interno */
     }
-    .valor-opcao:hover{
-        border-color: #f15a437e;
+    .valor-opcao:hover {
+    border-color: #f15a437e; /* Cor da borda ao passar o mouse ou quando selecionado */
     }
+
     .valor-opcao input {
         display: none; /* Esconde o botão de rádio padrão */
     }
