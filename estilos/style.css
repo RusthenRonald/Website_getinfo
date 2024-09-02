@@ -56,11 +56,32 @@ div p{
 }
 /*Fim do header*/
     /*Inico do Formulário*/
+    .campo {
+        margin-bottom: 15px; /* Espaço abaixo de cada campo */
+        padding: 2px; /* Espaço interno dentro do campo */
+        border: 2px solid #ccc; /* Cor e espessura da borda */
+        border-radius: 5px; /* Bordas arredondadas */
+        display: flex; /* Para alinhar ícone e input */
+        align-items: center; /* Alinhar verticalmente o ícone e o texto */
+    }
+    
+    .campo input {
+        border: none; /* Remove a borda do input */
+        padding: 5px; /* Espaço interno dentro do input */
+        font-size: 8px; /* Tamanho da fonte */
+        flex: 1; /* Faz o input ocupar o máximo de espaço disponível */
+    }
+    
+    .campo span.material-symbols-outlined {
+        font-size: 19px; /* Tamanho do ícone */
+        margin-right: 5px; /* Espaço entre o ícone e o input */
+    }
+    
     div#Formulario form{
         position: absolute;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
         background-color: white;
-        height: 180px;
+        height: 205px;
         width: 80vw;
         border-radius: 10px;
         padding: 20px;
@@ -68,15 +89,16 @@ div p{
         margin-left: 30px;
     }
     div#Formulario form h2{
-        font-size: 1.0em;
+        font-size: 0.9em;
         text-align: center;
+        margin-bottom: 5px;
     }
     form>input[type=submit]{
         display: block;
         font-size: 0.7em;
         width: 95%;
         height: 30px;
-        margin-top: 10px;
+        margin-top: 5px;
         border-radius: 20px;
         border: 0px;
         background-color: #E5BA27;
