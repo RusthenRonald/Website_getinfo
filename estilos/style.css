@@ -80,7 +80,10 @@ div p{
 .box:hover {
     transform: scale(1.05); /* Adicionado */
 }
-
+.box p{
+    color: white;
+    font-size: 0.9em;
+}
 .box1 {
     background: 
         linear-gradient(rgba(32, 177, 153, 0.7), rgba(32, 177, 153, 0.7)), 
