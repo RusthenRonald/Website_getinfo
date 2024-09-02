@@ -14,7 +14,7 @@ body,html{
 }
 header{
     position: relative;
-    height: 550px;
+    height: 460px;
     background-image: url(../img/header.png);
     background-position: left ;
     background-size: cover;
@@ -36,7 +36,7 @@ a:hover{/**/
 div#header{/*Div para posicionar texto do header*/
     width: 380px;
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 10%;
 }
 /*textos do header*/
@@ -58,13 +58,14 @@ div p{
     /*Inico do Formulário*/
     div#Formulario form{
         position: absolute;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
         background-color: white;
-        height: 190px;
-        width: 90vw;
+        height: 180px;
+        width: 80vw;
         border-radius: 10px;
         padding: 20px;
         top: 200px;
-        left: 10px;
+        margin-left: 30px;
     }
     div#Formulario form h2{
         font-size: 1.0em;
