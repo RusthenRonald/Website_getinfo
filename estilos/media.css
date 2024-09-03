@@ -45,7 +45,7 @@ Grandes telas : acima de 1200px
         width: 400px;
         position: absolute;
         top: 16%;
-        left: 12%;
+        left: 8%;
     }
     /*textos do header*/
     div#laranja{/*div só para mudar cor de um letra*/
@@ -54,7 +54,7 @@ Grandes telas : acima de 1200px
     }
     div h1{ /*Titulo do header*/
         font-size: 2.7em;
-        width: 600px;
+        width: 640px;
         color: black;
     }
     div p{/*Parágrafo do header*/
@@ -185,7 +185,7 @@ Grandes telas : acima de 1200px
     .box p{
         color: white;
         font-size: 1.5em;
-        font-weight: normal;
+        font-weight: bold;
         width: 100%; /* Define a largura das caixas para 100% da largura do contêiner */
         margin: 0; /* Remove o espaçamento entre as caixas */
     }
@@ -213,6 +213,39 @@ Grandes telas : acima de 1200px
         background-size: cover;
         background-position: center;
         height: 250px; 
+    }
+    .box1 p{
+        font-size: 1.6em;
+        width: 50vw;
+    }
+    .box2 p{
+        font-size: 1.6em;
+        width: 55vw;
+    }
+    .box3 p{
+        width: 40vw;
+        font-size: 1.6em;
+    }
+    span#education{
+        position: absolute;
+        top: 85px;
+        left: 35px;
+        font-size: 70px;
+        color: white;
+    }
+    span#saude{
+        position: absolute;
+        top: 85px;
+        left: 30px;
+        font-size: 70px;
+        color: white;
+    }
+    span#comida{
+        position: absolute;
+        top: 95px;
+        left: 35px;
+        font-size: 65px;
+        color: white;
     }
 /*fim das caixas*/ 
 
@@ -450,6 +483,7 @@ Grandes telas : acima de 1200px
             background-size: cover;
             background-position: center;
             height: 300px;
+            
     }
     .box2 {
         background: 
@@ -466,6 +500,27 @@ Grandes telas : acima de 1200px
         background-size: cover;
         background-position: center;
         height: 300px; 
+    }
+    span#education{
+        position: absolute;
+        top: 45px;
+        left: 15px;
+        font-size: 60px;
+        color: white;
+    }
+    span#saude{
+        position: absolute;
+        top: 45px;
+        left: 15px;
+        font-size: 60px;
+        color: white;
+    }
+    span#comida{
+        position: absolute;
+        top: 50px;
+        left: 15px;
+        font-size: 55px;
+        color: white;
     }
 /*Fim das caixas*/
      
@@ -709,6 +764,27 @@ Grandes telas : acima de 1200px
         background-size: cover;
         background-position: center;
         height: 350px; 
+    }
+    span#education{
+        position: absolute;
+        top: 70px;
+        left: 15px;
+        font-size: 60px;
+        color: white;
+    }
+    span#saude{
+        position: absolute;
+        top: 70px;
+        left: 15px;
+        font-size: 60px;
+        color: white;
+    }
+    span#comida{
+        position: absolute;
+        top: 70px;
+        left: 15px;
+        font-size: 55px;
+        color: white;
     }
 /*fim*/
  
@@ -957,23 +1033,23 @@ Grandes telas : acima de 1200px
     }
     span#education{
         position: absolute;
-        top: 100px;
-        left: 105px;
-        font-size: 50px;
+        top: 90px;
+        left: 15px;
+        font-size: 70px;
         color: white;
     }
     span#saude{
         position: absolute;
-        top: 100px;
-        left: 105px;
-        font-size: 50px;
+        top: 90px;
+        left: 15px;
+        font-size: 70px;
         color: white;
     }
     span#comida{
         position: absolute;
-        top: 100px;
-        left: 105px;
-        font-size: 50px;
+        top: 90px;
+        left: 15px;
+        font-size: 65px;
         color: white;
     }
     footer{

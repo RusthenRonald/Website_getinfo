@@ -175,8 +175,8 @@ div p{
 }
 .box p{
     color: white;
-    font-size: 0.9em;
-    font-weight: normal;
+    font-size: 1.3em;
+    font-weight: bold;
     
 }
 .box1 {
@@ -189,21 +189,42 @@ div p{
 }
 .box2 {
     background: 
-        linear-gradient(rgba(255, 99, 71, 0.7), rgba(255, 99, 71, 0.7)), 
-        url('../img/comida.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 200px;
+    linear-gradient(rgba(235, 189, 42, 0.7), rgba(235, 189, 42, 0.7)),
+    url('../img/saude\ \(2\).jpg');
+
+    background-size: cover;
+    background-position: center;
+    height: 200px;
 }
 .box3 {
     background: 
-    linear-gradient(rgba(235, 189, 42, 0.7), rgba(235, 189, 42, 0.7)),
-        url('../img/saude\ \(2\).jpg');
-        background-size: cover;
-        background-position: center;
-        height: 200px; 
+    linear-gradient(rgba(255, 99, 71, 0.7), rgba(255, 99, 71, 0.7)), 
+    url('../img/comida.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px; 
 }
-
+span#education{
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    font-size: 50px;
+    color: white;
+}
+span#saude{
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    font-size: 50px;
+    color: white;
+}
+span#comida{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    font-size: 45px;
+    color: white;
+}
 main{
     
 }
