@@ -153,6 +153,9 @@ Grandes telas : acima de 1200px
     form >a#botao:hover{
         color: #F15B43;
     }
+    #botao .material-symbols-outlined {
+        font-size: 19px; /* Ajuste o valor conforme necessário */
+    }
     /*Inicio das Caixas*/
     .container {/*posicionamento dos box*/
         display: flex; /* Usar flexbox para alinhar as caixas lado a lado */
@@ -406,6 +409,9 @@ Grandes telas : acima de 1200px
     }
     form >a#botao:hover{
         color: #F15B43;
+    }
+    #botao .material-symbols-outlined {
+        font-size: 19px; /* Ajuste o valor conforme necessário */
     }
     /*Inicio das caixas*/
     .container {/*posicionamento dos box*/
@@ -886,6 +892,10 @@ Grandes telas : acima de 1200px
     form >a#botao:hover{
         color: #F15B43;
     }
+    #botao .material-symbols-outlined {
+        font-size: 23px; /* Ajuste o valor conforme necessário */
+    }
+    
 /*Fim do header*/
 
     /*Inicio da box*/

@@ -144,6 +144,9 @@ div p{
     form >a#botao:hover{
         color: #F15B43;
     }
+    #botao .material-symbols-outlined {
+        font-size: 17px; /* Ajuste o valor conforme necessário */
+    }
 /*div dos 3 blocos abaixo do header*/
 /* Cores diferentes para cada div */
 /* Estilo para cada div com imagem e cor de fundo */
