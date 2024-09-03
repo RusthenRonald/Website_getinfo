@@ -47,7 +47,7 @@ div#laranja{ /*é especialmente uma palavra , só pra alterar a cor*/
     color: #F15B43;
 }
 div h1{ 
-    font-size: 1.4em;
+    font-size: 1.6em;
     width: 85vw;
     color: black;
 }
@@ -69,7 +69,7 @@ div p{
         display: flex;
         align-items: center;
         height: 40px;
-        padding: 3px 10px;/* Espaçamento interno */
+        padding: 3px 8px;/* Espaçamento interno */
         font-size: 0.7em;
         border: 2px solid #ccc; /* Borda ao redor da opção */
         border-radius: 5px ; /* Bordas arredondadas */
@@ -107,11 +107,11 @@ div p{
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
         background-color: white;
         height: 225px;
-        width: 80vw;
+        width: 70vw;
         border-radius: 10px;
         padding: 20px;
         top: 200px;
-        margin-left: 30px;
+        left: 50px;
     }
     div#Formulario form h2{
         font-size: 0.9em;

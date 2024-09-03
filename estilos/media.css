@@ -99,7 +99,7 @@ Grandes telas : acima de 1200px
         display: flex;
         align-items: center;
         height: 50px;
-        
+        font-size: 1.0em;
         border: 2px solid #ccc; /* Borda ao redor da opção */
         border-radius: 5px; /* Bordas arredondadas */
         padding: 5px 10px; /* Espaçamento interno */
@@ -358,6 +358,7 @@ Grandes telas : acima de 1200px
         display: flex;
         align-items: center;
         height: 50px;
+        font-size: 0.9em;
         border: 2px solid #ccc; /* Borda ao redor da opção */
         border-radius: 5px; /* Bordas arredondadas */
         padding: 5px 10px; /* Espaçamento interno */
@@ -601,6 +602,7 @@ Grandes telas : acima de 1200px
         display: flex;
         align-items: center;
         height: 50px;
+        font-size: 1.1em;
         border: 2px solid #ccc; /* Borda ao redor da opção */
         border-radius: 5px; /* Bordas arredondadas */
         padding: 5px 10px; /* Espaçamento interno */
@@ -841,6 +843,7 @@ Grandes telas : acima de 1200px
         border: 2px solid #ccc; /* Borda ao redor da opção */
         border-radius: 5px; /* Bordas arredondadas */
         padding: 5px 10px; /* Espaçamento interno */
+        font-size: 1.1em;
     }
     .valor-opcao:hover {
     border-color: #f15a437e; /* Cor da borda ao passar o mouse ou quando selecionado */
