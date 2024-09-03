@@ -50,6 +50,7 @@ div h1{
     font-size: 1.6em;
     width: 85vw;
     color: black;
+    
 }
 div p{
     color: rgba(128, 128, 128, 0.616);
@@ -110,7 +111,7 @@ div p{
         width: 70vw;
         border-radius: 10px;
         padding: 20px;
-        top: 200px;
+        top: 220px;
         left: 50px;
     }
     div#Formulario form h2{
@@ -175,7 +176,7 @@ div p{
 .box p{
     color: white;
     font-size: 0.9em;
-    font-weight: bold;
+    font-weight: normal;
     
 }
 .box1 {
