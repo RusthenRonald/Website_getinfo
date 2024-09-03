@@ -36,7 +36,7 @@ Grandes telas : acima de 1200px
     a{/*Links internos do menu*/
         text-decoration: none;
         padding-left: 10px;
-        color: black;
+        color: rgba(0, 0, 0, 0.616);
     }
     a:hover{/*Efeito do menu*/
         color: #F15B43;
@@ -99,6 +99,7 @@ Grandes telas : acima de 1200px
         display: flex;
         align-items: center;
         height: 50px;
+        
         border: 2px solid #ccc; /* Borda ao redor da opção */
         border-radius: 5px; /* Bordas arredondadas */
         padding: 5px 10px; /* Espaçamento interno */
@@ -115,11 +116,11 @@ Grandes telas : acima de 1200px
         background-color: white;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
         height: 300px;
-        width: 70vw;
+        width: 50vw;
         border-radius: 10px;
         padding: 20px;
         top: 240px;
-        left: 60px;
+        left: 150px;
     }
     div#Formulario form h2{
         font-size: 1.0em;
@@ -294,7 +295,7 @@ Grandes telas : acima de 1200px
     a{/*Links internos do menu*/
         text-decoration: none;
         padding-left: 10px;
-        color: black;
+        color: rgba(0, 0, 0, 0.616);
     }
     a:hover{/*efeito do menu*/
         color: #F15B43;
@@ -535,7 +536,7 @@ Grandes telas : acima de 1200px
     a{/*Links internos do menu*/
         text-decoration: none;
         padding-left: 10px;
-        color: black;
+        color: rgba(0, 0, 0, 0.616);
     }
     a:hover{/**/
         color: #F15B43;
@@ -772,7 +773,7 @@ Grandes telas : acima de 1200px
     a{/*Links internos do menu*/
         text-decoration: none;
         padding-left: 10px;
-        color: black;
+        color: rgba(0, 0, 0, 0.616);
     }
     a:hover{/**/
         color: #F15B43;
@@ -789,7 +790,7 @@ Grandes telas : acima de 1200px
         color: #F15B43;
     }
     div h1{ 
-        font-size: 2.9em;
+        font-size: 3.0em;
         width: 60vw;
         color: black;
     }
