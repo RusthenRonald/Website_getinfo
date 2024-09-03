@@ -215,16 +215,16 @@ Grandes telas : acima de 1200px
         height: 250px; 
     }
     .box1 p{
-        font-size: 1.6em;
+        font-size: 1.8em;
         width: 50vw;
     }
     .box2 p{
-        font-size: 1.6em;
+        font-size: 1.8em;
         width: 55vw;
     }
     .box3 p{
         width: 40vw;
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
     span#education{
         position: absolute;
@@ -348,8 +348,8 @@ Grandes telas : acima de 1200px
         color: #F15B43;
     }
     div h1{ /*tiulo do header*/
-        font-size: 2em;
-        width: 50vw;
+        font-size: 2.3em;
+        width:55vw;
         color: black;
     }
     div p{/*Parágrafo do cabeçalho*/
@@ -371,7 +371,7 @@ Grandes telas : acima de 1200px
     .campo input {
         border: none; /* Remove a borda do input */
         padding: 5px; /* Espaço interno dentro do input */
-        font-size: 16px; /* Tamanho da fonte */
+        font-size: 12px; /* Tamanho da fonte */
         flex: 1; /* Faz o input ocupar o máximo de espaço disponível */
     }
     
@@ -406,23 +406,23 @@ Grandes telas : acima de 1200px
         position: absolute;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.233);
         background-color: white;
-        height: 315px;
+        height: 300px;
         width: 40vw;
         border-radius: 10px;
         padding: 20px;
         top: 70px;
-        left: 455px;
+        left: 505px;
     }
     div#Formulario form h2{
-        font-size: 1.3em;
+        font-size: 1.1em;
         text-align: center;
         margin-bottom: 10px;
     }
     form>input[type=submit]{
         display: block;
-        font-size: 1em;
+        font-size: 0.9em;
         width: 100%;
-        height: 40px;
+        height: 30px;
         margin-top: 10px;
         border-radius: 20px;
         border: 0px;
@@ -436,7 +436,7 @@ Grandes telas : acima de 1200px
     form >a#botao{
         display: block;
         text-align: center;
-        font-size: 1em;
+        font-size: 0.9em;
         width: 100%;
         height: 40px;
         margin-top: 5px;
@@ -474,7 +474,7 @@ Grandes telas : acima de 1200px
     .box p{
         color: white;
         font-size: 1.8em;
-        font-weight: normal;
+        font-weight: bold;
     }
     .box1 {
         background: 
@@ -607,7 +607,7 @@ Grandes telas : acima de 1200px
         width: 380px;
         position: absolute;
         top: 30%;
-        left: 10%;
+        left: 6%;
     }
     /*texto do header*/
     div#laranja{
@@ -615,7 +615,7 @@ Grandes telas : acima de 1200px
         color: #F15B43;
     }
     div h1{ 
-        font-size: 2.4em;
+        font-size: 2.6em;
         width: 60vw;
         color: black;
     }
