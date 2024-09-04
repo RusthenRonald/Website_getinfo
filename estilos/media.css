@@ -190,6 +190,9 @@ Grandes telas : acima de 1200px
         margin-top: 25px;
         font-size: 1.3em;
     }
+    div#doe p:hover{
+        cursor: pointer;
+    }
     /*Posicionamento da img de fundo*/
     .box1, .box2, .box3 {
     background-size: cover;
@@ -464,6 +467,9 @@ Grandes telas : acima de 1200px
         font-size: 1.3em;
         font-weight: normal;
     }
+    div#doe p:hover{
+        cursor: pointer;
+    }
     /*Posicionamento da img de fundo*/
     .box1, .box2, .box3 {
     background-size: cover;
@@ -726,6 +732,9 @@ Grandes telas : acima de 1200px
         margin-top: 20px;
         margin-bottom: 50px;
         font-size: 1.3em;
+    }
+    div#doe p:hover{
+        cursor: pointer;
     }
     /*Posicionamento da img de fundo*/
     .box1, .box2,.box3 {
@@ -1001,6 +1010,9 @@ Grandes telas : acima de 1200px
         margin-top: 30px;
         font-size: 1.3em;
         margin-bottom: 30px;
+    }
+    div#doe p:hover{
+        cursor: pointer;
     }
     /*Posicionamento da img de fundo*/
     .box1, .box2, .box3 {

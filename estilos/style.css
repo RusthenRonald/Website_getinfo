@@ -187,6 +187,9 @@ div p{
         margin-top: 25px;
         font-weight: normal;
     }
+    div#doe p:hover{
+        cursor: pointer;
+    }
     /*Posicionamento da img de fundo*/
     .box1, .box2, .box3 {
     background-size: cover;
