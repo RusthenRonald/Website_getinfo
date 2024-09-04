@@ -453,12 +453,11 @@ Grandes telas : acima de 1200px
     .box p {
         color: white;
         font-weight: bold;
-        width: 70vw;
+        width: 30vw;
         font-size: 1.8em;
         margin: 0; /* Remove a margem padrão do parágrafo */
         text-align: left; /* Garante que o texto esteja alinhado à esquerda */
     } 
-
     /*Posicionamento do p da box*/
     div#doe p{
         margin-top: 20px;
@@ -486,19 +485,19 @@ Grandes telas : acima de 1200px
     /*icones*/
     span#education{
         position: absolute;
-        top: 80px;
+        top: 50px;
         left: 15px;
         font-size: 60px;
     }
     span#saude{
         position: absolute;
-        top: 80px;
+        top: 50px;
         left: 15px;
         font-size: 60px;
     }
     span#comida{
         position: absolute;
-        top: 80px;
+        top: 50px;
         left: 15px;
         font-size: 60px;
     }
@@ -718,16 +717,18 @@ Grandes telas : acima de 1200px
         color: white;
         font-size: 2.0em;
         font-weight: bold;
+        width: 30vw;
         margin: 0; /* Remove a margem padrão do parágrafo */
         text-align: left; /* Garante que o texto esteja alinhado à esquerda */
     } 
     /*Posicionamento do p da box*/
     div#doe p{
-        margin-top: 10px;
+        margin-top: 20px;
+        margin-bottom: 50px;
         font-size: 1.3em;
     }
     /*Posicionamento da img de fundo*/
-    .box1, .box2, .box3 {
+    .box1, .box2,.box3 {
     background-size: cover;
     background-position: center;
     }
@@ -747,21 +748,21 @@ Grandes telas : acima de 1200px
     /*icones*/
     span#education{
         position: absolute;
-        top: 200px;
+        top: 120px;
         left: 15px;
-        font-size: 50px;
+        font-size: 70px;
     }
     span#saude{
         position: absolute;
-        top: 200px;
+        top: 110px;
         left: 15px;
-        font-size: 50px;
+        font-size: 70px;
     }
     span#comida{
         position: absolute;
-        top: 200px;
+        top: 120px;
         left: 15px;
-        font-size: 50px;
+        font-size: 70px;
     }
     /*Fim da box*/
 
@@ -977,7 +978,7 @@ Grandes telas : acima de 1200px
         align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
         justify-content: flex-end; /* Alinha o conteúdo na parte inferior */
         transition: transform 0.3s ease, background-color 0.3s ease;
-        height: 400px; /* Mantém a altura fixa para as caixas */
+        height: 410px; /* Mantém a altura fixa para as caixas */
     }
     /*efeito da box*/
     .box:hover {
@@ -991,10 +992,15 @@ Grandes telas : acima de 1200px
         margin: 0; /* Remove a margem padrão do parágrafo */
         text-align: left; /* Garante que o texto esteja alinhado à esquerda */
     } 
+    .box3 p {
+        width: 300px;
+    }
+    
     /*Posicionamento do p da box*/
     div#doe p{
-        margin-top: 10px;
+        margin-top: 30px;
         font-size: 1.3em;
+        margin-bottom: 30px;
     }
     /*Posicionamento da img de fundo*/
     .box1, .box2, .box3 {
@@ -1016,21 +1022,21 @@ Grandes telas : acima de 1200px
     }
     /*icones*/
     span#education{
-        font-size: 50px;
+        font-size: 70px;
         position: absolute;
-        top: 200px;
+        top: 130px;
         left: 15px;
     }
     span#saude{
-        font-size: 50px;
+        font-size: 70px;
         position: absolute;
-        top: 200px;
+        top: 130px;
         left: 15px;
     }
     span#comida{
-        font-size: 50px;
+        font-size: 70px;
         position: absolute;
-        top: 200px;
+        top: 150px;
         left: 15px;
     }
     /*Fim da box*/
