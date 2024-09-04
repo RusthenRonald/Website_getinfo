@@ -15,7 +15,7 @@ body,html{
 }
 header{
     position: relative;
-    height: 480px;
+    height: 500px;
     background-image: url(../img/header.png);
     background-position: left ;
     background-size: cover;
@@ -169,12 +169,13 @@ div p{
         flex-direction: column; /* Alinha o conteúdo verticalmente */
         align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
         justify-content: flex-end; /* Alinha o conteúdo na parte inferior */
-        height: 400px; /* Mantém a altura fixa para as caixas */
+        height: 300px; /* Mantém a altura fixa para as caixas */
     }
     /*Configuração geral do p*/
     .box p {
         color: white;
-        font-size: 2.0em;
+        font-size: 1.7em;
+        width: 80vw;
         font-weight: bold;
         margin: 0; /* Remove a margem padrão do parágrafo */
         text-align: left; /* Garante que o texto esteja alinhado à esquerda */
@@ -183,6 +184,8 @@ div p{
     div#doe p{
         margin-top: 10px;
         font-size: 1.3em;
+        margin-top: 25px;
+        font-weight: normal;
     }
     /*Posicionamento da img de fundo*/
     .box1, .box2, .box3 {
@@ -194,51 +197,82 @@ div p{
         background: linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), url('../img/edu.jpg');
     }
 
-footer{
-    height: 390px;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.87);
-}
-footer a.footer{ /*Menus do rodapé*/
-    color: #FE8F1F;
-    font-size: 0.7em;
-}
-footer p{
-    color: white;
-}
-div#nav{ /*div da parte da navegação*/
-    position: absolute;
-    top: 10px;
-    left: 15px;
-}
-div#nav p{ /*parágrafo da navegação*/
-    margin-top: 20px;
-    font-size: 0.5em;
-}
-div#popu{ /*div da parte causas populares*/
-    position: absolute;
-    top: 10px;
-    left: 195px;
-}
-div#popu p{ /*parágrafo causas populares*/
-    margin-top: 20px;
-    font-size: 0.5em;
-}
-div#part{
-    position: absolute;
-    top: 140px;
-    left: 15px;
-}
-div#part p{ /*parágrafo da parte participantes*/
-    margin-top: 5px;
-    font-size: 0.5em;
-}
-div#cont{ /*div da parte contato*/
-    position: absolute;
-    top: 140px;
-    left: 185px;
-}
-div#cont p{ /*parágrafo da parte contato*/
-    margin-top: 20px;
-    font-size: 0.5em;
-}
+    .box2 {
+        background: linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)), url('../img/saude\ \(2\).jpg');
+    }
+
+    .box3 {
+        background: linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), url('../img/comida.jpg');
+        background-position: bottom;
+    }
+    /*icones*/
+    span#education{
+        position: absolute;
+        top: 100px;
+        left: 15px;
+        color: white;
+        font-size: 60px;
+        
+    }
+    span#saude{
+        position: absolute;
+        top: 110px;
+        left: 15px;
+        color: white;
+        font-size: 60px;
+    }
+    span#comida{
+        position: absolute;
+        top: 110px;
+        left: 15px;
+        color: white;
+        font-size: 60px;
+    }
+    footer{
+        height: 390px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.87);
+    }
+    footer a.footer{ /*Menus do rodapé*/
+        color: #FE8F1F;
+        font-size: 0.7em;
+    }
+    footer p{
+        color: white;
+    }
+    div#nav{ /*div da parte da navegação*/
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    div#nav p{ /*parágrafo da navegação*/
+        margin-top: 20px;
+        font-size: 0.5em;
+    }
+    div#popu{ /*div da parte causas populares*/
+        position: absolute;
+        top: 10px;
+        left: 195px;
+    }
+    div#popu p{ /*parágrafo causas populares*/
+        margin-top: 20px;
+        font-size: 0.5em;
+    }
+    div#part{
+        position: absolute;
+        top: 140px;
+        left: 15px;
+    }
+    div#part p{ /*parágrafo da parte participantes*/
+        margin-top: 5px;
+        font-size: 0.5em;
+    }
+    div#cont{ /*div da parte contato*/
+        position: absolute;
+        top: 140px;
+        left: 185px;
+    }
+    div#cont p{ /*parágrafo da parte contato*/
+        margin-top: 20px;
+        font-size: 0.5em;
+    }
