@@ -156,98 +156,79 @@ Grandes telas : acima de 1200px
     #botao .material-symbols-outlined {
         font-size: 19px; /* Ajuste o valor conforme necessário */
     }
-    /*Inicio das Caixas*/
-    .container {/*posicionamento dos box*/
-        display: flex; /* Usar flexbox para alinhar as caixas lado a lado */
-        flex-wrap: wrap; /* Permitir que as caixas quebrem linha se necessário */
+    /*Fim do header*/
+     /*Inicio da box*/
+     .container {
+        display: flex;
+        flex-wrap: wrap;
         gap: 0px; /* Espaçamento entre as caixas */
-        flex-direction: column; /* Muda a direção do flexbox para coluna */
-        align-items: center; /* Centraliza as caixas horizontalmente */
     }
-    .box { /*configuração dos box*/
+    /*Configuração da box*/
+    .box {
         position: relative;
-        display: inline-block;
-        width: calc(33.33% - 0px); /* Ajustei a largura para incluir o espaço entre as divs */
+        width: calc(33.33% - 0px);
         padding: 20px;
-        text-align: center;
-        box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
-        margin: 0; /* Removi margens extras */
-        vertical-align: top; /* Alinhei as divs no topo */
+        box-sizing: border-box;
+        margin: 0;
         margin-bottom: 40px;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.3s ease, background-color 0.3s ease; /* Adicionado */
+        flex-direction: column; /* Alinha o conteúdo verticalmente */
+        align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
+        justify-content: flex-end; /* Alinha o conteúdo na parte inferior */
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        height: 400px; /* Mantém a altura fixa para as caixas */
     }
+    /*efeito da box*/
     .box:hover {
-        transform: scale(1.05); /* Adicionado */
+        transform: scale(1.05);
     }
-    .box p{
+    /*Configuração geral do p*/
+    .box p {
         color: white;
-        font-size: 1.5em;
+        font-size: 2.0em;
         font-weight: bold;
-        width: 100%; /* Define a largura das caixas para 100% da largura do contêiner */
-        margin: 0; /* Remove o espaçamento entre as caixas */
+        margin: 0; /* Remove a margem padrão do parágrafo */
+        text-align: left; /* Garante que o texto esteja alinhado à esquerda */
+    } 
+    /*Posicionamento do p da box*/
+    div#doe p{
+        margin-top: 10px;
+        font-size: 1.3em;
+    }
+    /*Posicionamento da img de fundo*/
+    .box1, .box2, .box3 {
+    background-size: cover;
+    background-position: center;
+    }
+    /*img de fundo das caixas*/
+    .box1 {
+        background: linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), url('../img/edu.jpg');
     }
     
-    .box1 {
-        background: 
-            linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), 
-            url('../img/edu.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 250px;
-    }
     .box2 {
-        background: 
-        linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)),
-        url('../img/saude\ \(2\).jpg');
-        background-size: cover;
-        background-position: center;
-        height: 250px;
+        background: linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)), url('../img/saude\ \(2\).jpg');
     }
+    
     .box3 {
-        background: 
-        linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), 
-        url('../img/comida.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 250px; 
+        background: linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), url('../img/comida.jpg');
+        background-position: bottom;
     }
-    .box1 p{
-        font-size: 1.8em;
-        width: 50vw;
-    }
-    .box2 p{
-        font-size: 1.8em;
-        width: 55vw;
-    }
-    .box3 p{
-        width: 40vw;
-        font-size: 1.8em;
-    }
+    /*icones*/
     span#education{
         position: absolute;
-        top: 85px;
-        left: 35px;
-        font-size: 70px;
-        color: white;
+        top: 180px;
+        left: 15px;
     }
     span#saude{
         position: absolute;
-        top: 85px;
-        left: 30px;
-        font-size: 70px;
-        color: white;
+        top: 180px;
+        left: 15px;
     }
     span#comida{
         position: absolute;
-        top: 95px;
-        left: 35px;
-        font-size: 65px;
-        color: white;
+        top: 220px;
+        left: 15px;
     }
-/*fim das caixas*/ 
 
 /*Nossa Visão e Missão*/
 
@@ -447,86 +428,80 @@ Grandes telas : acima de 1200px
     #botao .material-symbols-outlined {
         font-size: 19px; /* Ajuste o valor conforme necessário */
     }
-    /*Inicio das caixas*/
-    .container {/*posicionamento dos box*/
-        display: flex; /* Usar flexbox para alinhar as caixas lado a lado */
-        flex-wrap: wrap; /* Permitir que as caixas quebrem linha se necessário */
+    /*Fim do header*/
+    /*Inicio da box*/
+    .container {
+        display: flex;
+        flex-wrap: wrap;
         gap: 0px; /* Espaçamento entre as caixas */
     }
-    .box { /*configuração dos box*/
+    /*Configuração da box*/
+    .box {
         position: relative;
-        display: inline-block;
-        width: calc(33.33% - 0px); /* Ajustei a largura para incluir o espaço entre as divs */
+        width: calc(33.33% - 0px);
         padding: 20px;
-        text-align: center;
-        box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
-        margin: 0; /* Removi margens extras */
-        vertical-align: top; /* Alinhei as divs no topo */
+        box-sizing: border-box;
+        margin: 0;
         margin-bottom: 40px;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.3s ease, background-color 0.3s ease; /* Adicionado */
+        flex-direction: column; /* Alinha o conteúdo verticalmente */
+        align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
+        justify-content: flex-end; /* Alinha o conteúdo na parte inferior */
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        height: 400px; /* Mantém a altura fixa para as caixas */
     }
+    /*efeito da box*/
     .box:hover {
-        transform: scale(1.05); /* Adicionado */
+        transform: scale(1.05);
     }
-    .box p{
+    /*Configuração geral do p*/
+    .box p {
         color: white;
-        font-size: 1.8em;
+        font-size: 2.0em;
         font-weight: bold;
+        margin: 0; /* Remove a margem padrão do parágrafo */
+        text-align: left; /* Garante que o texto esteja alinhado à esquerda */
+    } 
+    /*Posicionamento do p da box*/
+    div#doe p{
+        margin-top: 10px;
+        font-size: 1.3em;
     }
+    /*Posicionamento da img de fundo*/
+    .box1, .box2, .box3 {
+    background-size: cover;
+    background-position: center;
+    }
+    /*img de fundo das caixas*/
     .box1 {
-        background: 
-            linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), 
-            url('../img/edu.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 300px;
-            
+        background: linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), url('../img/edu.jpg');
     }
+    
     .box2 {
-        background: 
-        linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)),
-        url('../img/saude\ \(2\).jpg');
-        background-size: cover;
-        background-position: center;
-        height: 300px;
+        background: linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)), url('../img/saude\ \(2\).jpg');
     }
+    
     .box3 {
-        background: 
-        linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), 
-        url('../img/comida.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 300px; 
+        background: linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), url('../img/comida.jpg');
+        background-position: bottom;
     }
+    /*icones*/
     span#education{
         position: absolute;
-        top: 45px;
+        top: 200px;
         left: 15px;
-        font-size: 60px;
-        color: white;
     }
     span#saude{
         position: absolute;
-        top: 45px;
+        top: 200px;
         left: 15px;
-        font-size: 60px;
-        color: white;
     }
     span#comida{
         position: absolute;
-        top: 50px;
+        top: 200px;
         left: 15px;
-        font-size: 55px;
-        color: white;
     }
-/*Fim das caixas*/
-     
-    /*Nossa missão e visão*/
-/*Fim*/
-
+    /*Fim da box*/
     /*Footer ou Rodapé*/
     footer{
         height: 350px;
@@ -711,81 +686,82 @@ Grandes telas : acima de 1200px
     form >a#botao:hover{
         color: #F15B43;
     }
-    /*Inicio das caixas*/
-    .container {/*posicionamento dos box*/
-        display: flex; /* Usar flexbox para alinhar as caixas lado a lado */
-        flex-wrap: wrap; /* Permitir que as caixas quebrem linha se necessário */
+    /*Fim do header */
+    /*Inicio da box*/
+    .container {
+        display: flex;
+        flex-wrap: wrap;
         gap: 0px; /* Espaçamento entre as caixas */
     }
-    .box { /*configuração dos box*/
+    /*Configuração da box*/
+    .box {
         position: relative;
-        display: inline-block;
-        width: calc(33.33% - 0px); /* Ajustei a largura para incluir o espaço entre as divs */
+        width: calc(33.33% - 0px);
         padding: 20px;
-        text-align: center;
-        box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
-        margin: 0; /* Removi margens extras */
-        vertical-align: top; /* Alinhei as divs no topo */
+        box-sizing: border-box;
+        margin: 0;
         margin-bottom: 40px;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.3s ease, background-color 0.3s ease; /* Adicionado */
+        flex-direction: column; /* Alinha o conteúdo verticalmente */
+        align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
+        justify-content: flex-end; /* Alinha o conteúdo na parte inferior */
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        height: 400px; /* Mantém a altura fixa para as caixas */
     }
+    /*efeito da box*/
     .box:hover {
-        transform: scale(1.05); /* Adicionado */
+        transform: scale(1.05);
     }
-    .box p{
+    /*Configuração geral do p*/
+    .box p {
         color: white;
         font-size: 2.0em;
-        font-weight: normal;
+        font-weight: bold;
+        margin: 0; /* Remove a margem padrão do parágrafo */
+        text-align: left; /* Garante que o texto esteja alinhado à esquerda */
+    } 
+    /*Posicionamento do p da box*/
+    div#doe p{
+        margin-top: 10px;
+        font-size: 1.3em;
     }
+    /*Posicionamento da img de fundo*/
+    .box1, .box2, .box3 {
+    background-size: cover;
+    background-position: center;
+    }
+    /*img de fundo das caixas*/
     .box1 {
-        background: 
-            linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), 
-            url('../img/edu.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 350px;
-            
+        background: linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), url('../img/edu.jpg');
     }
+    
     .box2 {
-        background: 
-        linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)),
-        url('../img/saude\ \(2\).jpg');
-        background-size: cover;
-        background-position: center;
-        height: 350px;
+        background: linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)), url('../img/saude\ \(2\).jpg');
     }
+    
     .box3 {
-        background: 
-        linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), 
-        url('../img/comida.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 350px; 
+        background: linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), url('../img/comida.jpg');
+        background-position: bottom;
     }
+    /*icones*/
     span#education{
         position: absolute;
-        top: 70px;
+        top: 200px;
         left: 15px;
-        font-size: 60px;
-        color: white;
     }
     span#saude{
         position: absolute;
-        top: 70px;
+        top: 200px;
         left: 15px;
-        font-size: 60px;
-        color: white;
     }
     span#comida{
         position: absolute;
-        top: 70px;
+        top: 200px;
         left: 15px;
-        font-size: 55px;
-        color: white;
     }
+    /*Fim da box*/
+
+    /*Rodapé*/
 /*fim*/
  
     /*Footer ou Rodapé*/
@@ -979,79 +955,80 @@ Grandes telas : acima de 1200px
 /*Fim do header*/
 
     /*Inicio da box*/
-    .container {/*posicionamento dos box*/
-        display: flex; /* Usar flexbox para alinhar as caixas lado a lado */
-        flex-wrap: wrap; /* Permitir que as caixas quebrem linha se necessário */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
         gap: 0px; /* Espaçamento entre as caixas */
     }
-    .box { /*configuração dos box*/
+    /*Configuração da box*/
+    .box {
         position: relative;
-        display: inline-block;
-        align-items: center; /* Alinha o conteúdo verticalmente no centro */
-        justify-content: center; /* Alinha o conteúdo horizontalmente no centro */
-        width: calc(33.33% - 0px); /* Ajustei a largura para incluir o espaço entre as divs */
+        width: calc(33.33% - 0px);
         padding: 20px;
-        box-sizing: border-box; /* Garanti que padding e border sejam incluídos na largura */
-        margin: 0; /* Removi margens extras */
-        vertical-align: top; /* Alinhei as divs no topo */
+        box-sizing: border-box;
+        margin: 0;
         margin-bottom: 40px;
         display: flex;
-        transition: transform 0.3s ease, background-color 0.3s ease; /* Adicionado */
+        flex-direction: column; /* Alinha o conteúdo verticalmente */
+        align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
+        justify-content: flex-end; /* Alinha o conteúdo na parte inferior */
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        height: 400px; /* Mantém a altura fixa para as caixas */
     }
+    /*efeito da box*/
     .box:hover {
-        transform: scale(1.05); /* Adicionado */
+        transform: scale(1.05);
     }
-    .box p{
+    /*Configuração geral do p*/
+    .box p {
         color: white;
-        font-size: 2.6em;
-        font-weight: normal;
+        font-size: 2.0em;
+        font-weight: bold;
+        margin: 0; /* Remove a margem padrão do parágrafo */
+        text-align: left; /* Garante que o texto esteja alinhado à esquerda */
+    } 
+    /*Posicionamento do p da box*/
+    div#doe p{
+        margin-top: 10px;
+        font-size: 1.3em;
+    }
+    /*Posicionamento da img de fundo*/
+    .box1, .box2, .box3 {
+    background-size: cover;
+    background-position: center;
+    }
+    /*img de fundo das caixas*/
+    .box1 {
+        background: linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), url('../img/edu.jpg');
     }
     
-    .box1 {
-        background: 
-            linear-gradient(rgba(32, 177, 153, 0.8), rgba(32, 177, 153, 0.8)), 
-            url('../img/edu.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-    }
     .box2 {
-        background: 
-        linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)),
-            url('../img/saude\ \(2\).jpg');
-            background-size: cover;
-            background-position: center;
-            height: 400px;
+        background: linear-gradient(rgba(235, 189, 42, 0.8), rgba(235, 189, 42, 0.8)), url('../img/saude\ \(2\).jpg');
     }
+    
     .box3 {
-        background: 
-            linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), 
-            url('../img/comida.jpg');
-            background-size: cover;
-            background-position: bottom;
-            height: 400px; 
+        background: linear-gradient(rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.8)), url('../img/comida.jpg');
+        background-position: bottom;
     }
+    /*icones*/
     span#education{
         position: absolute;
-        top: 90px;
+        top: 200px;
         left: 15px;
-        font-size: 70px;
-        color: white;
     }
     span#saude{
         position: absolute;
-        top: 90px;
+        top: 200px;
         left: 15px;
-        font-size: 70px;
-        color: white;
     }
     span#comida{
         position: absolute;
-        top: 90px;
+        top: 200px;
         left: 15px;
-        font-size: 65px;
-        color: white;
     }
+    /*Fim da box*/
+
+    /*Rodapé*/
     footer{
         height: 350px;
         position: relative;
