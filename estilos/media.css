@@ -175,12 +175,7 @@ Grandes telas : acima de 1200px
         flex-direction: column; /* Alinha o conteúdo verticalmente */
         align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
         justify-content: flex-end; /* Alinha o conteúdo na parte inferior */
-        transition: transform 0.3s ease, background-color 0.3s ease;
         height: 400px; /* Mantém a altura fixa para as caixas */
-    }
-    /*efeito da box*/
-    .box:hover {
-        transform: scale(1.05);
     }
     /*Configuração geral do p*/
     .box p {
