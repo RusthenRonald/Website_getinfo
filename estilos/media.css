@@ -175,19 +175,19 @@ Grandes telas : acima de 1200px
         flex-direction: column; /* Alinha o conteúdo verticalmente */
         align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
         justify-content: flex-end; /* Alinha o conteúdo na parte inferior */
-        height: 400px; /* Mantém a altura fixa para as caixas */
+        height: 270px; /* Mantém a altura fixa para as caixas */
     }
     /*Configuração geral do p*/
     .box p {
         color: white;
-        font-size: 2.0em;
+        font-size: 1.6em;
         font-weight: bold;
         margin: 0; /* Remove a margem padrão do parágrafo */
         text-align: left; /* Garante que o texto esteja alinhado à esquerda */
     } 
     /*Posicionamento do p da box*/
     div#doe p{
-        margin-top: 10px;
+        margin-top: 25px;
         font-size: 1.3em;
     }
     /*Posicionamento da img de fundo*/
@@ -211,18 +211,21 @@ Grandes telas : acima de 1200px
     /*icones*/
     span#education{
         position: absolute;
-        top: 180px;
+        top: 80px;
         left: 15px;
+        font-size: 60px;
     }
     span#saude{
         position: absolute;
-        top: 180px;
+        top: 70px;
         left: 15px;
+        font-size: 60px;
     }
     span#comida{
         position: absolute;
-        top: 220px;
+        top: 80px;
         left: 15px;
+        font-size: 50px;
     }
 /*fim */ 
 
@@ -440,7 +443,7 @@ Grandes telas : acima de 1200px
         align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
         justify-content: flex-end; /* Alinha o conteúdo na parte inferior */
         transition: transform 0.3s ease, background-color 0.3s ease;
-        height: 400px; /* Mantém a altura fixa para as caixas */
+        height: 270px; /* Mantém a altura fixa para as caixas */
     }
     /*efeito da box*/
     .box:hover {
@@ -449,15 +452,18 @@ Grandes telas : acima de 1200px
     /*Configuração geral do p*/
     .box p {
         color: white;
-        font-size: 2.0em;
         font-weight: bold;
+        width: 70vw;
+        font-size: 1.8em;
         margin: 0; /* Remove a margem padrão do parágrafo */
         text-align: left; /* Garante que o texto esteja alinhado à esquerda */
     } 
+
     /*Posicionamento do p da box*/
     div#doe p{
-        margin-top: 10px;
+        margin-top: 20px;
         font-size: 1.3em;
+        font-weight: normal;
     }
     /*Posicionamento da img de fundo*/
     .box1, .box2, .box3 {
@@ -480,18 +486,21 @@ Grandes telas : acima de 1200px
     /*icones*/
     span#education{
         position: absolute;
-        top: 200px;
+        top: 80px;
         left: 15px;
+        font-size: 60px;
     }
     span#saude{
         position: absolute;
-        top: 200px;
+        top: 80px;
         left: 15px;
+        font-size: 60px;
     }
     span#comida{
         position: absolute;
-        top: 200px;
+        top: 80px;
         left: 15px;
+        font-size: 60px;
     }
     /*Fim da box*/
     /*Footer ou Rodapé*/
@@ -740,16 +749,19 @@ Grandes telas : acima de 1200px
         position: absolute;
         top: 200px;
         left: 15px;
+        font-size: 50px;
     }
     span#saude{
         position: absolute;
         top: 200px;
         left: 15px;
+        font-size: 50px;
     }
     span#comida{
         position: absolute;
         top: 200px;
         left: 15px;
+        font-size: 50px;
     }
     /*Fim da box*/
 
@@ -807,7 +819,7 @@ Grandes telas : acima de 1200px
         color: white;
     }
 }
-/*Telas maiores que 1300px*/
+/*Telas maiores que 1450px*/
 @media screen and (min-width:1450px) {
     header{
         position: relative;
@@ -1004,16 +1016,19 @@ Grandes telas : acima de 1200px
     }
     /*icones*/
     span#education{
+        font-size: 50px;
         position: absolute;
         top: 200px;
         left: 15px;
     }
     span#saude{
+        font-size: 50px;
         position: absolute;
         top: 200px;
         left: 15px;
     }
     span#comida{
+        font-size: 50px;
         position: absolute;
         top: 200px;
         left: 15px;
