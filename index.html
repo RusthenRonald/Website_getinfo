@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/media.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <title>Document</title>
 </head>
 <body>
     <header id="home">
-        <nav id="menu" class="menu"><!--Menu-->
-            <a href="#home">Home</a>
-            <div class="dropdown">
-                <a href="#container2">Causas</a>
+        <div id="menucenter">
+            <nav id="menu" class="menu"><!--Menu-->
+                <a href="#home">Home</a>
+                <div class="dropdown">
+                    <a href="#container">Causas  <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="listadecausas.html" target="_blank">Lista de causas</a>
+                        <a href="#">Causas Únicas</a>
+                    </div>
+                    <a href="#">Formulário</a>
+                    <a href="#Sobrenos">Sobre nós</a>
+                    <a href="#rodape" >Contato</a>
             </div>
-            <a href="#">Formulário</a>
-            <a href="#Sobrenos">Sobre nós</a>
-            <a href="#rodape" >Contato</a>
-        </nav>
+            </nav>
+        </div>
         <div id="header">
             <!--Texto do header-->
             <h1><div id="laranja">Juntos</div> iremos  <br>reconstruir nosso futuro</h1>
@@ -71,7 +79,7 @@
         </div>
         
     </header>
-        <div class="container">
+        <div class="container" id="container">
             <div class="box box1">
                 <span id="education" class="material-symbols-outlined">school</span>
                 <p >Projetos de Educação <br>na África</p>

@@ -22,29 +22,91 @@ Grandes telas : acima de 1200px
 @media screen and (min-width:500px) and (max-width:830px){
     header{/*Cabeçalho*/
         position: relative;
-        height: 590px;
+        height: 600px;
         background-image: url(../img/header.png);
         background-size: cover;
         background-position: center;
     }
-    nav{/*Menu*/
+    div#menucenter{
         text-align: center;
-        text-decoration: none;
+    }
+    nav {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
         padding-top: 25px;
         font-size: 0.9em;
     }
-    a{/*Links internos do menu*/
+    
+    a {
         text-decoration: none;
-        padding-left: 10px;
+        padding-left: 30px;
+        padding-right: 10px;
         color: rgba(0, 0, 0, 0.616);
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
-    a:hover{/*Efeito do menu*/
+    
+    a:hover {
         color: #F15B43;
     }
+    nav {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        font-size: 0.9em;
+    }
+    
+    a {
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 10px;
+        color: rgba(0, 0, 0, 0.616);
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    a:hover {
+        color: #F15B43;
+    }
+    /*dropdown*/
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Exibe o dropdown ao passar o mouse sobre o link "Causas" ou dentro da área de conteúdo */
+    .dropdown:hover .dropdown-content,
+    .dropdown-content:hover {
+        display: block;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 10px 12px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+    /*fimdropdown*/
     div#header{/*Div para posicionar texto do header*/
         width: 400px;
         position: absolute;
-        top: 16%;
+        top: 21%;
         left: 8%;
     }
     /*textos do header*/
@@ -119,8 +181,8 @@ Grandes telas : acima de 1200px
         width: 50vw;
         border-radius: 10px;
         padding: 20px;
-        top: 255px;
-        left: 150px;
+        top: 275px;
+        left: 155px;
     }
     div#Formulario form h2{
         font-size: 1.0em;
@@ -301,20 +363,82 @@ Grandes telas : acima de 1200px
         background-position: center;
         background-size: cover;
     }
-    nav{/*Menu*/
+    div#menucenter{
         text-align: center;
-        text-decoration: none;
+    }
+    nav {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
         padding-top: 25px;
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
-    a{/*Links internos do menu*/
+    
+    a {
         text-decoration: none;
-        padding-left: 10px;
+        padding-left: 30px;
+        padding-right: 10px;
         color: rgba(0, 0, 0, 0.616);
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
-    a:hover{/*efeito do menu*/
+    
+    a:hover {
         color: #F15B43;
     }
+    nav {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        font-size: 0.9em;
+    }
+    
+    a {
+        text-decoration: none;
+        padding-left: 25px;
+        padding-right: 10px;
+        color: rgba(0, 0, 0, 0.616);
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    a:hover {
+        color: #F15B43;
+    }
+    /*dropdown*/
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Exibe o dropdown ao passar o mouse sobre o link "Causas" ou dentro da área de conteúdo */
+    .dropdown:hover .dropdown-content,
+    .dropdown-content:hover {
+        display: block;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 10px 12px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+    /*fimdropdown*/
     div#header{/*Div para posicionar texto do header*/
         width: 100px;
         position: absolute;
@@ -570,20 +694,82 @@ Grandes telas : acima de 1200px
         background-size: cover;
         
     }
-    nav{/*Menu*/
+    div#menucenter{
         text-align: center;
-        text-decoration: none;
+    }
+    nav {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
         padding-top: 25px;
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
-    a{/*Links internos do menu*/
+    
+    a {
         text-decoration: none;
-        padding-left: 10px;
+        padding-left: 30px;
+        padding-right: 10px;
         color: rgba(0, 0, 0, 0.616);
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
-    a:hover{/**/
+    
+    a:hover {
         color: #F15B43;
     }
+    nav {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        font-size: 0.9em;
+    }
+    
+    a {
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 10px;
+        color: rgba(0, 0, 0, 0.616);
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    a:hover {
+        color: #F15B43;
+    }
+    /*dropdown*/
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Exibe o dropdown ao passar o mouse sobre o link "Causas" ou dentro da área de conteúdo */
+    .dropdown:hover .dropdown-content,
+    .dropdown-content:hover {
+        display: block;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 10px 12px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+    /*fimdropdown*/
     div#header{/*Div para posicionar texto do header*/
         width: 380px;
         position: absolute;
@@ -838,54 +1024,84 @@ Grandes telas : acima de 1200px
         background-position: center;
         background-size: cover;
     }
-       
-    nav{/*Menu*/
+    div#menucenter{
         text-align: center;
-        text-decoration: none;
+    }
+    nav {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
         padding-top: 25px;
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
-    a{/*Links internos do menu*/
+    
+    a {
         text-decoration: none;
-        padding-left: 10px;
+        padding-left: 30px;
+        padding-right: 10px;
         color: rgba(0, 0, 0, 0.616);
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
-    a:hover{/**/
+    
+    a:hover {
         color: #F15B43;
     }
-    /*Dropdown*/
-    /* Estilo para o dropdown */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
+    nav {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        font-size: 0.9em;
+    }
+    
+    a {
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 10px;
+        color: rgba(0, 0, 0, 0.616);
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    a:hover {
+        color: #F15B43;
+    }
+    /*dropdown*/
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    text-align: left; /* Para alinhar os itens do dropdown à esquerda */
-}
+    .dropdown-content {
+        
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
+    /* Exibe o dropdown ao passar o mouse sobre o link "Causas" ou dentro da área de conteúdo */
+    .dropdown:hover .dropdown-content,
+    .dropdown-content:hover {
+        display: block;
+    }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
+    .dropdown-content a {
+        color: black;
+        padding: 10px 12px;
+        text-decoration: none;
+        display: block;
+    }
 
-/* Exibe o conteúdo do dropdown ao passar o mouse */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-    div#header{/*Div para posicionar texto do header*/
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+    /*fimdropdown*/
+    /*Div para posicionar texto do header*/
+    div#header{
         width: 380px;
         position: absolute;
         top: 30%;

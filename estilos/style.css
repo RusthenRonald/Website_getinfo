@@ -20,21 +20,82 @@ header{
     background-position: left ;
     background-size: cover;
 }
-nav{/*Menu*/
+div#menucenter{
     text-align: center;
-    text-decoration: none;
+}
+nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 25px;
-    font-size: 0.6em;
-    
+    font-size: 0.9em;
 }
-a{/*Links internos do menu*/
+
+a {
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
     color: rgba(0, 0, 0, 0.616);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-a:hover{/**/
-    color:#F15B43 ;
+
+a:hover {
+    color: #F15B43;
 }
+nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.616);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    color: #F15B43;
+}
+/*dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 65px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Exibe o dropdown ao passar o mouse sobre o link "Causas" ou dentro da área de conteúdo */
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 4px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+/*fimdropdown*/
 div#header{/*Div para posicionar texto do header*/
     width: 380px;
     position: absolute;
