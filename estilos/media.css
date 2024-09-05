@@ -853,6 +853,38 @@ Grandes telas : acima de 1200px
     a:hover{/**/
         color: #F15B43;
     }
+    /*Dropdown*/
+    /* Estilo para o dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left; /* Para alinhar os itens do dropdown à esquerda */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Exibe o conteúdo do dropdown ao passar o mouse */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
     div#header{/*Div para posicionar texto do header*/
         width: 380px;
         position: absolute;
