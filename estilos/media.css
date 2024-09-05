@@ -292,8 +292,7 @@ Grandes telas : acima de 1200px
         left: 15px;
         font-size: 50px;
     }
-/*fim */ 
-
+    /*fim */ 
     /*Footer ou Rodapé*/
     footer a.footer{ /*Menus do rodapé*/
         color: #FE8F1F;
@@ -1300,7 +1299,21 @@ Grandes telas : acima de 1200px
         left: 15px;
     }
     /*Fim da box*/
-
+    /*Sobre nós*/
+    main{
+        margin-top: 60px;
+        position: relative;
+    }
+    div#sobrenos h2{
+        text-align: center;
+        font-size: 2.8em;
+        color: #F15B43;
+    }
+    div#sobrenos p{
+        margin: auto;
+    }
+    
+    
     /*Rodapé*/
     footer{
         height: 350px;
