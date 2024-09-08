@@ -710,7 +710,8 @@ Grandes telas : acima de 1200px
         color: #F15B43;
     }
     div#sobrenos p{
-        width: 500px;
+        width: 400px;
+        font-size: 0.8em;
         margin: auto;
     }
     /*Div para centralizar link*/
@@ -718,7 +719,7 @@ Grandes telas : acima de 1200px
         margin-top: 70px;
         text-align: center;
         margin-bottom: 40px;
-        font-size: 1.8em;
+        font-size: 1.1em;
         /*position: absolute;
         top: 140px;
         left: 120px;*/
@@ -750,6 +751,36 @@ Grandes telas : acima de 1200px
         width: 400px;
         margin: auto;
         color: gray;
+    }
+    /* posicionamento para o container principal do menu MVH*/
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Alinha todas as divs à esquerda */
+        padding: 70px; /* Ajuste o padding conforme necessário */
+    }
+    /* Adicione alguns estilos básicos para melhor visualização */
+    #sobrenos, #mvh, #sobrenosp {
+        margin-bottom: 20px; /* Espaçamento entre as divs */
+    }
+
+    #sobrenos p, #sobrenosp p {
+        margin: 0;
+    }
+    /*Imagens*/
+    main img#kids{
+        width: 30vw;
+        height: 350px;
+        position: absolute;
+        top: 140px;
+        left: 580px;
+    }
+    main img#kids2{
+        width: 25vw;
+        height: 230px;
+        position: absolute;
+        top: 330px;
+        left: 485px;
     }
     /*Footer ou Rodapé*/
     footer{
@@ -1138,7 +1169,20 @@ Grandes telas : acima de 1200px
         margin: 0;
     }
     /*Imagens*/
-    
+    main img#kids{
+        width: 30vw;
+        height: 400px;
+        position: absolute;
+        top: 140px;
+        left: 730px;
+    }
+    main img#kids2{
+        width: 25vw;
+        height: 250px;
+        position: absolute;
+        top: 330px;
+        left: 595px;
+    }
     
 /*fim*/
  
