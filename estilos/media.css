@@ -1103,7 +1103,6 @@ Grandes telas : acima de 1200px
         background-color: #F15B43;
         color: white;
     }
-
     /* Quando a caixa está ativa, desabilitar o hover */
     .missao.active:hover {
         background-color: #F15B43; /* Mantém a cor de fundo ativa */
