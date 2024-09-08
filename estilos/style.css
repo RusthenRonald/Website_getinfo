@@ -13,6 +13,7 @@ body,html{
     overflow-y: auto;
     scroll-behavior: smooth;
 }
+/*Cabeçalho*/
 header{
     position: relative;
     height: 500px;
@@ -20,9 +21,11 @@ header{
     background-position: left ;
     background-size: cover;
 }
+/*Div de centralização de menu*/
 div#menucenter{
     text-align: center;
 }
+/*Configurações de menu*/
 nav {
     display: inline-flex;
     justify-content: center;
@@ -39,36 +42,17 @@ a {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
+/*Efeito ao passar mouse*/
 a:hover {
     color: #F15B43;
 }
-nav {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 25px;
-    font-size: 0.5em;
-}
-
-a {
-    text-decoration: none;
-    padding-left: 5px;
-    padding-right: 10px;
-    color: rgba(0, 0, 0, 0.616);
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-a:hover {
-    color: #F15B43;
-}
+/*Menu dorpdown ao clicar*/
 /*dropdown*/
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
+/*Conteudo do menu dropdown*/
 .dropdown-content {
     
     display: none;
@@ -84,18 +68,19 @@ a:hover {
 .dropdown-content:hover {
     display: block;
 }
-
+/*Configuração do conteudo do dropdown*/
 .dropdown-content a {
     color: black;
     padding: 4px 0px;
     text-decoration: none;
     display: block;
 }
-
+/*efeito ao passar mouse*/
 .dropdown-content a:hover {
     background-color: #f1f1f1;
 }
 /*fimdropdown*/
+
 div#header{/*Div para posicionar texto do header*/
     width: 380px;
     position: absolute;
@@ -120,13 +105,13 @@ div p{
 }
 /*Fim do header*/
     /*Inico do Formulário*/
-    /* Estilo para as mini caixas de valores */
+    /*caixa de doação*/
     .doacao-valores {
         display: flex;
         justify-content: space-around;
         margin-bottom: 20px;
     }
-
+    /*Conteudo da caixa de doação*/
     .valor-opcao {
         display: flex;
         align-items: center;
@@ -137,12 +122,15 @@ div p{
         border-radius: 5px ; /* Bordas arredondadas */
         
     }
+    /*efito ao passar mouse */
     .valor-opcao:hover{
         border-color: #f15a437e;
     }
+    /* Esconde o botão de rádio padrão */
     .valor-opcao input {
-        display: none; /* Esconde o botão de rádio padrão */
+        display: none; 
     }
+    /*Campo de formulário*/
     .campo {
         margin-bottom: 10px; /* Espaço abaixo de cada campo */
         padding: 2px; /* Espaço interno dentro do campo */
@@ -151,19 +139,19 @@ div p{
         display: flex; /* Para alinhar ícone e input */
         align-items: center; /* Alinhar verticalmente o ícone e o texto */
     }
-    
+    /*Conteudo do formulário*/
     .campo input {
         border: none; /* Remove a borda do input */
         padding: 5px; /* Espaço interno dentro do input */
         font-size: 8px; /* Tamanho da fonte */
         flex: 1; /* Faz o input ocupar o máximo de espaço disponível */
     }
-    
+    /*icone do formulário*/
     .campo span.material-symbols-outlined {
         font-size: 19px; /* Tamanho do ícone */
         margin-right: 5px; /* Espaço entre o ícone e o input */
     }
-    
+    /*Posicionamento de formulário*/
     div#Formulario form{
         position: absolute;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
@@ -175,11 +163,13 @@ div p{
         top: 220px;
         left: 50px;
     }
+    /*Posicionamento de h2*/
     div#Formulario form h2{
         font-size: 0.9em;
         text-align: center;
         margin-bottom: 5px;
     }
+    /*Botão doe agora*/
     form>input[type=submit]{
         display: block;
         font-size: 0.7em;
@@ -191,10 +181,12 @@ div p{
         background-color: #E5BA27;
         
     }
+    /*efeito ao passar mouse*/
     form>input[type=submit]:hover{
         background-color: #e5b927a9;
         
     }
+    /*Conteudo do botao*/
     form >a#botao{
         display: block;
         text-align: center;
@@ -206,6 +198,7 @@ div p{
     form >a#botao:hover{
         color: #F15B43;
     }
+    /*icone do botao*/
     #botao .material-symbols-outlined {
         font-size: 17px; /* Ajuste o valor conforme necessário */
     }
