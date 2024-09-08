@@ -1213,7 +1213,7 @@ Grandes telas : acima de 1200px
     div#popu{ /*div da parte causas populares*/
         position: absolute;
         top: 45px;
-        left: 240px;
+        left: 280px;
     }
     div#popu p{ /*parágrafo causas populares*/
         margin-top: 20px;
@@ -1223,7 +1223,7 @@ Grandes telas : acima de 1200px
     div#part{
         position: absolute;
         top: 45px;
-        left: 495px;
+        left: 575px;
     }
     div#part p{ /*parágrafo da parte participantes*/
         margin-top: 5px;
@@ -1233,7 +1233,7 @@ Grandes telas : acima de 1200px
     div#cont{ /*div da parte contato*/
         position: absolute;
         top: 45px;
-        left: 765px;
+        left: 895px;
     }
     div#cont p{ /*parágrafo da parte contato*/
         margin-top: 20px;
