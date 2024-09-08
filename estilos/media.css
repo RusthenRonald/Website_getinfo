@@ -332,7 +332,9 @@ Grandes telas : acima de 1200px
         border-radius: 5px;
         border-bottom: 3px solid #F15B43;
     }
-
+    .missao:hover{
+        background-color: #f15a4394;
+    }
     /* Estilo para quando a caixa está ativa */
     .missao.active {
         background-color: #F15B43;
@@ -736,7 +738,9 @@ Grandes telas : acima de 1200px
         background-color: #F15B43;
         color: white;
     }
-
+    .missao:hover{
+        background-color: #f15a4394;
+    }
     /* Quando a caixa está ativa, desabilitar o hover */
     .missao.active:hover {
         background-color: #F15B43; /* Mantém a cor de fundo ativa */
@@ -1102,6 +1106,9 @@ Grandes telas : acima de 1200px
     .missao.active {
         background-color: #F15B43;
         color: white;
+    }
+    .missao:hover{
+        background-color: #f15a4394;
     }
     /* Quando a caixa está ativa, desabilitar o hover */
     .missao.active:hover {
