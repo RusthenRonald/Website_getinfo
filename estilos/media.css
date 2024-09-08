@@ -708,6 +708,7 @@ Grandes telas : acima de 1200px
         color: #F15B43;
     }
     div#sobrenos p{
+        width: 500px;
         margin: auto;
     }
     /*Div para centralizar link*/
@@ -1074,6 +1075,7 @@ Grandes telas : acima de 1200px
         color: #F15B43;
     }
     div#sobrenos p{
+        width: 500px;
         margin: auto;
     }
     /*Div para centralizar link*/
