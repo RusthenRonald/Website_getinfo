@@ -774,8 +774,10 @@ Grandes telas : acima de 1200px
         position: absolute;
         top: 140px;
         left: 580px;
+        border-radius: 7px;
     }
     main img#kids2{
+        border-radius: 7px;
         width: 25vw;
         height: 230px;
         position: absolute;
@@ -1175,6 +1177,7 @@ Grandes telas : acima de 1200px
         position: absolute;
         top: 140px;
         left: 730px;
+        border-radius: 7px;
     }
     main img#kids2{
         width: 25vw;
@@ -1182,6 +1185,7 @@ Grandes telas : acima de 1200px
         position: absolute;
         top: 330px;
         left: 595px;
+        border-radius: 7px;
     }
     
 /*fim*/
