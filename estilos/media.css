@@ -347,7 +347,9 @@ Grandes telas : acima de 1200px
         width: 400px;
         margin: auto;
         color: gray;
-    } 
+       
+    }
+
     /*Footer ou Rodapé*/
     footer a.footer{ /*Menus do rodapé*/
         color: #FE8F1F;

@@ -292,6 +292,64 @@ div p{
         color: white;
         font-size: 60px;
     }
+    main{
+        margin-top: 60px;
+        position: relative;
+    }
+    div#sobrenos{
+        /*
+        position: absolute;
+        top: 10px;
+        left: 120px;
+        */
+    }
+    div#sobrenos h2{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 2.3em;
+        color: #F15B43;
+    }
+    div#sobrenos p{
+        margin: auto;
+        width: 80vw;
+    }
+    /*Div para centralizar link*/
+    div#mvh {
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 40px;
+        /*position: absolute;
+        top: 140px;
+        left: 120px;*/
+    }
+    
+    /*Configuração do link*/
+    /* Configuração base das caixas */
+    .missao {
+        font-weight: bold;
+        padding: 15px 10px;
+        border-radius: 5px;
+        font-size: 0.6em;
+        border-bottom: 3px solid #F15B43;
+    }
+
+    /* Estilo para quando a caixa está ativa */
+    .missao.active {
+        background-color: #F15B43;
+        color: white;
+    }
+
+    /* Quando a caixa está ativa, desabilitar o hover */
+    .missao.active:hover {
+        background-color: #F15B43; /* Mantém a cor de fundo ativa */
+        color: white; /* Mantém a cor de texto ativa */
+    }
+    main p{
+        width: 80vw;
+        margin: auto;
+        color: gray;
+    }
+    /*Rodapé*/
     footer{
         height: 390px;
         position: relative;
