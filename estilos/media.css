@@ -1527,7 +1527,101 @@ Grandes telas : acima de 1200px
         left: 15px;
     }
     /*Fim da box*/
-   
+        /*Sobre nós*/
+        main{
+            margin-top: 60px;
+            position: relative;
+        }
+        div#sobrenos{
+            /*
+            position: absolute;
+            top: 10px;
+            left: 120px;
+            */
+        }
+        div#sobrenos h2{
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 2.8em;
+            color: #F15B43;
+        }
+        div#sobrenos p{
+            width: 500px;
+            margin: auto;
+            font-size: 0.9em;
+        }
+        /*Div para centralizar link*/
+        div#mvh {
+            margin-top: 30px;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.4em;
+            /*position: absolute;
+            top: 140px;
+            left: 120px;*/
+        }
+        
+        /*Configuração do link*/
+        /* Configuração base das caixas */
+        .missao {
+            font-weight: bold;
+            padding: 25px 20px;
+            border-radius: 5px;
+            border-bottom: 3px solid #F15B43;
+        }
+    
+        /* Estilo para quando a caixa está ativa */
+        .missao.active {
+            background-color: #F15B43;
+            color: white;
+        }
+        .missao:hover{
+            background-color: #f15a4394;
+        }
+        /* Quando a caixa está ativa, desabilitar o hover */
+        .missao.active:hover {
+            background-color: #F15B43; /* Mantém a cor de fundo ativa */
+            color: white; /* Mantém a cor de texto ativa */
+        }
+        main p{
+            width: 400px;
+            margin: auto;
+            color: gray;
+        }
+        /* posicionamento para o container principal do menu MVH*/
+        .container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Alinha todas as divs à esquerda */
+            padding: 70px; /* Ajuste o padding conforme necessário */
+        }
+        /* Adicione alguns estilos básicos para melhor visualização */
+        #sobrenos, #mvh, #sobrenosp {
+            margin-bottom: 20px; /* Espaçamento entre as divs */
+        }
+    
+        #sobrenos p, #sobrenosp p {
+            margin: 0;
+        }
+        /*Imagens*/
+        main img#kids{
+            width: 30vw;
+            height: 400px;
+            position: absolute;
+            top: 140px;
+            left: 730px;
+            border-radius: 7px;
+        }
+        main img#kids2{
+            width: 25vw;
+            height: 250px;
+            position: absolute;
+            top: 330px;
+            left: 595px;
+            border-radius: 7px;
+        }
+        
+    /*fim*/
     
     
     /*Rodapé*/
