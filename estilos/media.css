@@ -770,7 +770,7 @@ Grandes telas : acima de 1200px
     /*Imagens*/
     main img#kids{
         width: 30vw;
-        height: 350px;
+        height: 300px;
         position: absolute;
         top: 140px;
         left: 580px;
@@ -778,8 +778,8 @@ Grandes telas : acima de 1200px
     }
     main img#kids2{
         border-radius: 7px;
-        width: 25vw;
-        height: 230px;
+        width: 20vw;
+        height: 200px;
         position: absolute;
         top: 330px;
         left: 485px;
@@ -1176,15 +1176,15 @@ Grandes telas : acima de 1200px
         height: 400px;
         position: absolute;
         top: 140px;
-        left: 730px;
+        left: 780px;
         border-radius: 7px;
     }
     main img#kids2{
-        width: 25vw;
+        width: 250px;
         height: 250px;
         position: absolute;
         top: 330px;
-        left: 595px;
+        left: 635px;
         border-radius: 7px;
     }
     
@@ -1607,7 +1607,7 @@ Grandes telas : acima de 1200px
             border-radius: 7px;
         }
         main img#kids2{
-            width: 350px;
+            width: 320px;
             height: 270px;
             position: absolute;
             top: 330px;
