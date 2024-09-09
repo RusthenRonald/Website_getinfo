@@ -1456,7 +1456,7 @@ Grandes telas : acima de 1200px
         padding: 20px;
         box-sizing: border-box;
         margin: 0;
-        margin-bottom: 40px;
+        margin-bottom: 130px;
         display: flex;
         flex-direction: column; /* Alinha o conteúdo verticalmente */
         align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
@@ -1532,30 +1532,23 @@ Grandes telas : acima de 1200px
             margin-top: 60px;
             position: relative;
         }
-        div#sobrenos{
-            /*
-            position: absolute;
-            top: 10px;
-            left: 120px;
-            */
-        }
         div#sobrenos h2{
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             text-align: center;
-            font-size: 2.8em;
+            font-size: 3.5em;
             color: #F15B43;
         }
         div#sobrenos p{
-            width: 500px;
+            width: 600px;
             margin: auto;
-            font-size: 0.9em;
+            font-size: 1.3em;
         }
         /*Div para centralizar link*/
         div#mvh {
             margin-top: 30px;
             text-align: center;
-            margin-bottom: 40px;
-            font-size: 1.4em;
+            margin-bottom: 50px;
+            font-size: 1.5em;
             /*position: absolute;
             top: 140px;
             left: 120px;*/
@@ -1584,7 +1577,8 @@ Grandes telas : acima de 1200px
             color: white; /* Mantém a cor de texto ativa */
         }
         main p{
-            width: 400px;
+            width: 500px;
+            text-align: justify;
             margin: auto;
             color: gray;
         }
@@ -1593,7 +1587,7 @@ Grandes telas : acima de 1200px
             display: flex;
             flex-direction: column;
             align-items: flex-start; /* Alinha todas as divs à esquerda */
-            padding: 70px; /* Ajuste o padding conforme necessário */
+            padding-left:  230px; /* Ajuste o padding conforme necessário */
         }
         /* Adicione alguns estilos básicos para melhor visualização */
         #sobrenos, #mvh, #sobrenosp {
@@ -1606,18 +1600,18 @@ Grandes telas : acima de 1200px
         /*Imagens*/
         main img#kids{
             width: 30vw;
-            height: 400px;
+            height: 500px;
             position: absolute;
-            top: 140px;
-            left: 730px;
+            top: 35px;
+            left: 1000px;
             border-radius: 7px;
         }
         main img#kids2{
-            width: 25vw;
-            height: 250px;
+            width: 350px;
+            height: 270px;
             position: absolute;
             top: 330px;
-            left: 595px;
+            left: 905px;
             border-radius: 7px;
         }
         
