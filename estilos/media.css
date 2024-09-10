@@ -301,7 +301,7 @@ Grandes telas : acima de 1200px
     }
     /*Posicionamento do p */
     div#sobrenos p{
-        width: 450px;
+        width: 70vw;
         margin: auto;
         font-size: 1em;
     }
@@ -342,7 +342,7 @@ Grandes telas : acima de 1200px
     }
     /*Outros p*/
     main p{
-        width: 450px;
+        width: 70vw;
         text-align: justify;
         margin: auto;
         color: gray;
@@ -360,7 +360,7 @@ Grandes telas : acima de 1200px
         display: flex;
         flex-direction: column;
         align-items: flex-start; /* Alinha todas as divs à esquerda */
-        padding-left: 160px; /* Ajuste o padding conforme necessário */
+        padding-left: 140px; /* Ajuste o padding conforme necessário */
     }
     /* Adicione alguns estilos básicos para melhor visualização */
     #sobrenos, #mvh, #sobrenosp {
@@ -372,17 +372,17 @@ Grandes telas : acima de 1200px
     }
     /*Imagens*/
     main img#kids{
-        width: 250px;
+        width: 30vw;
         height: 200px;
         border-radius: 7px;
         margin-left: 130px;
         margin-bottom: 10px;
     }
     main img#kids2{
-        width: 250px;
+        width: 30vw;
         height: 200px;
         border-radius: 7px;
-        margin-left: 30px;
+        margin-left: 40px;
         margin-bottom: 10px;
     }
     
