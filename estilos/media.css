@@ -93,6 +93,7 @@ Grandes telas : acima de 1200px
     }
 
     .dropdown-content a {
+        font-size: 0.8em;
         color: black;
         padding: 5px 4px;
         text-decoration: none;
@@ -308,9 +309,9 @@ Grandes telas : acima de 1200px
       
     /*Div para centralizar link*/
     div#mvh {
-        margin-top: 30px;
+        margin-top: 20px;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         font-size: 1.7em;
         /*position: absolute;
         top: 140px;
@@ -360,7 +361,7 @@ Grandes telas : acima de 1200px
         display: flex;
         flex-direction: column;
         align-items: flex-start; /* Alinha todas as divs à esquerda */
-        padding-left: 140px; /* Ajuste o padding conforme necessário */
+        padding-left: 130px; /* Ajuste o padding conforme necessário */
     }
     /* Adicione alguns estilos básicos para melhor visualização */
     #sobrenos, #mvh, #sobrenosp {
@@ -373,14 +374,14 @@ Grandes telas : acima de 1200px
     /*Imagens*/
     main img#kids{
         width: 30vw;
-        height: 200px;
+        height: 250px;
         border-radius: 7px;
         margin-left: 130px;
         margin-bottom: 10px;
     }
     main img#kids2{
         width: 30vw;
-        height: 200px;
+        height: 250px;
         border-radius: 7px;
         margin-left: 40px;
         margin-bottom: 10px;
@@ -522,8 +523,9 @@ Grandes telas : acima de 1200px
     }
 
     .dropdown-content a {
+        font-size: 0.8em;
         color: black;
-        padding: 10px 12px;
+        padding: 10px 4px;
         text-decoration: none;
         display: block;
     }
@@ -934,8 +936,9 @@ Grandes telas : acima de 1200px
     }
 
     .dropdown-content a {
+        font-size: 0.8em;
         color: black;
-        padding: 10px 12px;
+        padding: 10px 4px;
         text-decoration: none;
         display: block;
     }
@@ -961,7 +964,7 @@ Grandes telas : acima de 1200px
         color: black;
     }
     div p{
-        color: rgba(128, 128, 128, 0.616);
+        color: rgba(128, 128, 128, 0.863);
         width: 490px;
         font-size: 1.0em;
     }
@@ -1223,15 +1226,15 @@ Grandes telas : acima de 1200px
         height: 400px;
         position: absolute;
         top: 75px;
-        left: 800px;
+        left: 780px;
         border-radius: 7px;
     }
     main img#kids2{
-        width: 250px;
+        width: 20vw;
         height: 270px;
         position: absolute;
         top: 330px;
-        left: 725px;
+        left: 705px;
         border-radius: 7px;
     }
     
@@ -1363,8 +1366,9 @@ Grandes telas : acima de 1200px
     }
 
     .dropdown-content a {
+        font-weight: normal;
         color: black;
-        padding: 5px 4px;
+        padding: 10px 4px;
         text-decoration: none;
         display: block;
     }
