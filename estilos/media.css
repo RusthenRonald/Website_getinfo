@@ -293,32 +293,25 @@ Grandes telas : acima de 1200px
         font-size: 50px;
     }
     /*fim */
-    main{
-        margin-top: 60px;
-        position: relative;
-    }
-    div#sobrenos{
-        /*
-        position: absolute;
-        top: 10px;
-        left: 120px;
-        */
-    }
-    div#sobrenos h2{
+    /*h2 "Sobre nòs"*/
+    #h2sobrenos{
         margin-bottom: 20px;
-        text-align: center;
-        font-size: 2.8em;
+        font-size: 2.4em;
         color: #F15B43;
     }
+    /*Posicionamento do p */
     div#sobrenos p{
+        width: 450px;
         margin: auto;
+        font-size: 1em;
     }
+      
     /*Div para centralizar link*/
     div#mvh {
-        margin-top: 70px;
+        margin-top: 30px;
         text-align: center;
-        margin-bottom: 40px;
-        font-size: 1.4em;
+        margin-bottom: 30px;
+        font-size: 1.7em;
         /*position: absolute;
         top: 140px;
         left: 120px;*/
@@ -328,30 +321,71 @@ Grandes telas : acima de 1200px
     /* Configuração base das caixas */
     .missao {
         font-weight: bold;
-        padding: 25px 20px;
+        padding: 8px 5px;
         border-radius: 5px;
+        font-size: 0.6em;
         border-bottom: 3px solid #F15B43;
     }
-    .missao:hover{
-        background-color: #f15a4394;
-    }
+
     /* Estilo para quando a caixa está ativa */
     .missao.active {
         background-color: #F15B43;
         color: white;
     }
-
+    .missao:hover{
+        background-color: #f15a4394;
+    }
     /* Quando a caixa está ativa, desabilitar o hover */
     .missao.active:hover {
         background-color: #F15B43; /* Mantém a cor de fundo ativa */
         color: white; /* Mantém a cor de texto ativa */
     }
+    /*Outros p*/
     main p{
-        width: 400px;
+        width: 450px;
+        text-align: justify;
         margin: auto;
         color: gray;
-       
+        line-height: 1.7em;
+        
     }
+    /*Outros h2*/
+    main h2{
+        color: #F15B43;
+        font-size: 1.6em;
+        margin-bottom: 15px;
+    }
+    /* posicionamento para o container principal do menu MVH*/
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Alinha todas as divs à esquerda */
+        padding-left: 160px; /* Ajuste o padding conforme necessário */
+    }
+    /* Adicione alguns estilos básicos para melhor visualização */
+    #sobrenos, #mvh, #sobrenosp {
+        margin-bottom: 20px; /* Espaçamento entre as divs */
+    }
+
+    #sobrenos p, #sobrenosp p {
+        margin: 0;
+    }
+    /*Imagens*/
+    main img#kids{
+        width: 250px;
+        height: 200px;
+        border-radius: 7px;
+        margin-left: 150px;
+        margin-bottom: 10px;
+    }
+    main img#kids2{
+        width: 250px;
+        height: 200px;
+        border-radius: 7px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    
 
     /*Footer ou Rodapé*/
     footer a.footer{ /*Menus do rodapé*/
@@ -692,34 +726,30 @@ Grandes telas : acima de 1200px
         font-size: 60px;
     }
     /*Fim da box*/
+    /*Sobre nós*/
     main{
-        margin-top: 60px;
+        margin-top: 160px;
         position: relative;
     }
-    div#sobrenos{
-        /*
-        position: absolute;
-        top: 10px;
-        left: 120px;
-        */
-    }
-    div#sobrenos h2{
+    /*h2 "Sobre nòs"*/
+    #h2sobrenos{
         margin-bottom: 20px;
-        text-align: center;
-        font-size: 2.8em;
+        font-size: 2.7em;
         color: #F15B43;
     }
+    /*Posicionamento do p */
     div#sobrenos p{
-        width: 400px;
-        font-size: 0.8em;
+        width: 500px;
         margin: auto;
+        font-size: 1.0em;
     }
+      
     /*Div para centralizar link*/
     div#mvh {
-        margin-top: 70px;
+        margin-top: 30px;
         text-align: center;
-        margin-bottom: 40px;
-        font-size: 1.1em;
+        margin-bottom: 60px;
+        font-size: 1.2em;
         /*position: absolute;
         top: 140px;
         left: 120px;*/
@@ -747,17 +777,27 @@ Grandes telas : acima de 1200px
         background-color: #F15B43; /* Mantém a cor de fundo ativa */
         color: white; /* Mantém a cor de texto ativa */
     }
+    /*Outros p*/
     main p{
-        width: 400px;
+        width: 500px;
+        text-align: justify;
         margin: auto;
         color: gray;
+        line-height: 1.7em;
+        
+    }
+    /*Outros h2*/
+    main h2{
+        color: #F15B43;
+        font-size: 1.5em;
+        margin-bottom: 15px;
     }
     /* posicionamento para o container principal do menu MVH*/
     .container2 {
         display: flex;
         flex-direction: column;
         align-items: flex-start; /* Alinha todas as divs à esquerda */
-        padding: 70px; /* Ajuste o padding conforme necessário */
+        padding-left:  50px; /* Ajuste o padding conforme necessário */
     }
     /* Adicione alguns estilos básicos para melhor visualização */
     #sobrenos, #mvh, #sobrenosp {
@@ -770,20 +810,22 @@ Grandes telas : acima de 1200px
     /*Imagens*/
     main img#kids{
         width: 30vw;
-        height: 300px;
+        height: 330px;
         position: absolute;
-        top: 140px;
-        left: 580px;
+        top: 75px;
+        left: 570px;
         border-radius: 7px;
     }
     main img#kids2{
-        border-radius: 7px;
-        width: 20vw;
+        width: 25vw;
         height: 200px;
         position: absolute;
-        top: 330px;
-        left: 485px;
+        top: 290px;
+        left: 665px;
+        border-radius: 7px;
     }
+    
+/*fim*/
     /*Footer ou Rodapé*/
     footer{
         height: 350px;
@@ -1096,33 +1138,28 @@ Grandes telas : acima de 1200px
     /*Fim da box*/
     /*Sobre nós*/
     main{
-        margin-top: 60px;
+        margin-top: 160px;
         position: relative;
     }
-    div#sobrenos{
-        /*
-        position: absolute;
-        top: 10px;
-        left: 120px;
-        */
-    }
-    div#sobrenos h2{
-        margin-bottom: 10px;
-        text-align: center;
-        font-size: 2.8em;
+    /*h2 "Sobre nòs"*/
+    #h2sobrenos{
+        margin-bottom: 20px;
+        font-size: 2.9em;
         color: #F15B43;
     }
+    /*Posicionamento do p */
     div#sobrenos p{
-        width: 500px;
+        width: 600px;
         margin: auto;
-        font-size: 0.9em;
+        font-size: 1.3em;
     }
+      
     /*Div para centralizar link*/
     div#mvh {
         margin-top: 30px;
         text-align: center;
-        margin-bottom: 40px;
-        font-size: 1.4em;
+        margin-bottom: 60px;
+        font-size: 1.5em;
         /*position: absolute;
         top: 140px;
         left: 120px;*/
@@ -1150,17 +1187,27 @@ Grandes telas : acima de 1200px
         background-color: #F15B43; /* Mantém a cor de fundo ativa */
         color: white; /* Mantém a cor de texto ativa */
     }
+    /*Outros p*/
     main p{
-        width: 400px;
+        width: 500px;
+        text-align: justify;
         margin: auto;
         color: gray;
+        line-height: 1.7em;
+        
+    }
+    /*Outros h2*/
+    main h2{
+        color: #F15B43;
+        font-size: 1.7em;
+        margin-bottom: 15px;
     }
     /* posicionamento para o container principal do menu MVH*/
     .container2 {
         display: flex;
         flex-direction: column;
         align-items: flex-start; /* Alinha todas as divs à esquerda */
-        padding: 70px; /* Ajuste o padding conforme necessário */
+        padding-left:  110px; /* Ajuste o padding conforme necessário */
     }
     /* Adicione alguns estilos básicos para melhor visualização */
     #sobrenos, #mvh, #sobrenosp {
@@ -1175,20 +1222,20 @@ Grandes telas : acima de 1200px
         width: 30vw;
         height: 400px;
         position: absolute;
-        top: 140px;
-        left: 780px;
+        top: 75px;
+        left: 800px;
         border-radius: 7px;
     }
     main img#kids2{
         width: 250px;
-        height: 250px;
+        height: 270px;
         position: absolute;
         top: 330px;
-        left: 635px;
+        left: 725px;
         border-radius: 7px;
     }
     
-/*fim*/
+    /*fim*/
  
     /*Footer ou Rodapé*/
     footer{
@@ -1456,7 +1503,6 @@ Grandes telas : acima de 1200px
         padding: 20px;
         box-sizing: border-box;
         margin: 0;
-        margin-bottom: 130px;
         display: flex;
         flex-direction: column; /* Alinha o conteúdo verticalmente */
         align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
@@ -1529,25 +1575,27 @@ Grandes telas : acima de 1200px
     /*Fim da box*/
         /*Sobre nós*/
         main{
-            margin-top: 60px;
+            margin-top: 160px;
             position: relative;
         }
-        div#sobrenos h2{
+        /*h2 "Sobre nòs"*/
+        #h2sobrenos{
             margin-bottom: 20px;
-            text-align: center;
-            font-size: 3.5em;
+            font-size: 2.9em;
             color: #F15B43;
         }
+        /*Posicionamento do p */
         div#sobrenos p{
             width: 600px;
             margin: auto;
             font-size: 1.3em;
         }
+          
         /*Div para centralizar link*/
         div#mvh {
             margin-top: 30px;
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 60px;
             font-size: 1.5em;
             /*position: absolute;
             top: 140px;
@@ -1576,11 +1624,20 @@ Grandes telas : acima de 1200px
             background-color: #F15B43; /* Mantém a cor de fundo ativa */
             color: white; /* Mantém a cor de texto ativa */
         }
+        /*Outros p*/
         main p{
             width: 500px;
             text-align: justify;
             margin: auto;
             color: gray;
+            line-height: 1.7em;
+            
+        }
+        /*Outros h2*/
+        main h2{
+            color: #F15B43;
+            font-size: 1.7em;
+            margin-bottom: 15px;
         }
         /* posicionamento para o container principal do menu MVH*/
         .container2 {
