@@ -37,7 +37,7 @@ nav {
 
 a {
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-right: 10px;
     color: rgba(0, 0, 0, 0.616);
     padding-top: 5px;
@@ -234,12 +234,12 @@ div p{
         margin: 0; /* Remove a margem padrão do parágrafo */
         text-align: left; /* Garante que o texto esteja alinhado à esquerda */
     } 
-    /*Posicionamento do p da box*/
+    /*Configuração do p "Doe agora"*/
     div#doe p{
-        margin-top: 10px;
+        color: white;
+        margin-top: 30px;
         font-size: 1.3em;
-        margin-top: 25px;
-        font-weight: normal;
+        margin-bottom: 30px;
     }
     div#doe p:hover{
         cursor: pointer;
@@ -265,7 +265,7 @@ div p{
     /*icones*/
     span#education{
         position: absolute;
-        top: 85px;
+        top: 45px;
         left: 15px;
         color: white;
         font-size: 60px;
@@ -273,14 +273,14 @@ div p{
     }
     span#saude{
         position: absolute;
-        top: 110px;
+        top: 40px;
         left: 15px;
         color: white;
         font-size: 60px;
     }
     span#comida{
         position: absolute;
-        top: 110px;
+        top: 60px;
         left: 15px;
         color: white;
         font-size: 60px;

@@ -60,7 +60,7 @@ Grandes telas : acima de 1200px
     
     a {
         text-decoration: none;
-        padding-left: 30px;
+        padding-left: 10px;
         padding-right: 10px;
         color: rgba(0, 0, 0, 0.616);
         padding-top: 5px;
@@ -277,19 +277,19 @@ Grandes telas : acima de 1200px
     /*icones*/
     span#education{
         position: absolute;
-        top: 80px;
+        top: 50px;
         left: 15px;
         font-size: 60px;
     }
     span#saude{
         position: absolute;
-        top: 70px;
+        top: 50px;
         left: 15px;
         font-size: 60px;
     }
     span#comida{
         position: absolute;
-        top: 80px;
+        top: 70px;
         left: 15px;
         font-size: 50px;
     }
@@ -309,9 +309,9 @@ Grandes telas : acima de 1200px
       
     /*Div para centralizar link*/
     div#mvh {
-        margin-top: 20px;
+        margin-top: 30px;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         font-size: 1.7em;
         /*position: absolute;
         top: 140px;
@@ -592,7 +592,7 @@ Grandes telas : acima de 1200px
         font-size: 0.9em;
         border: 2px solid #ccc; /* Borda ao redor da opção */
         border-radius: 5px; /* Bordas arredondadas */
-        padding: 5px 10px; /* Espaçamento interno */
+        padding: 5px 5px; /* Espaçamento interno */
     }
     .valor-opcao:hover{
         border-color: #f15a437e;
@@ -711,21 +711,21 @@ Grandes telas : acima de 1200px
     /*icones*/
     span#education{
         position: absolute;
-        top: 50px;
+        top: 20px;
         left: 15px;
-        font-size: 60px;
+        font-size: 55px;
     }
     span#saude{
         position: absolute;
-        top: 50px;
+        top: 20px;
         left: 15px;
-        font-size: 60px;
+        font-size: 55px;
     }
     span#comida{
         position: absolute;
-        top: 50px;
+        top: 35px;
         left: 15px;
-        font-size: 60px;
+        font-size: 50px;
     }
     /*Fim da box*/
     /*Sobre nós*/
@@ -812,7 +812,7 @@ Grandes telas : acima de 1200px
     /*Imagens*/
     main img#kids{
         width: 30vw;
-        height: 330px;
+        height: 300px;
         position: absolute;
         top: 75px;
         left: 570px;
@@ -1004,7 +1004,7 @@ Grandes telas : acima de 1200px
         font-size: 1.1em;
         border: 2px solid #ccc; /* Borda ao redor da opção */
         border-radius: 5px; /* Bordas arredondadas */
-        padding: 5px 10px; /* Espaçamento interno */
+        padding: 5px 5px; /* Espaçamento interno */
     }
     .valor-opcao:hover{
     border-color: #f15a437e; /* Cor da borda ao passar o mouse ou quando selecionado */
