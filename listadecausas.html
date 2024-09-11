@@ -177,12 +177,21 @@
             margin-right: 10px;
         }
 
-        .progress-bar-inner {
+         #educacao {
             height: 100%;
-            width: 70%; /* Ajuste a porcentagem conforme necessário */
+            width: 13%; 
             background-color: #F15B43; /* Cor da barra interna */
         }
-
+        #semteto{
+            height: 100%;
+            width: 87%; 
+            background-color: #F15B43;
+        }
+        #desmatada{
+            height: 100%;
+            width: 13%; 
+            background-color: #F15B43;
+        }
         .progress-text {
             font-size: 1.1em;
             color: #333;
@@ -214,7 +223,7 @@
             <p>Educação primária para crianças indígenas</p>
             <div class="progress-container">
                 <div class="progress-bar">
-                    <div class="progress-bar-inner"></div>
+                    <div class="progress-bar-inner" id="educacao"></div>
                 </div>
                 <div class="progress-text">13%</div>
             </div>
@@ -227,7 +236,7 @@
             <p id="homeless">Ajudando os sem-teto</p>
             <div class="progress-container">
                 <div class="progress-bar">
-                    <div class="progress-bar-inner" style="width: 50%;"></div>
+                    <div class="progress-bar-inner" id="semteto" style="width: 87%;"></div>
                 </div>
                 <div class="progress-text">87%</div>
             </div>
@@ -240,7 +249,7 @@
             <p>Recuperação de áreas desmatadas</p>
             <div class="progress-container">
                 <div class="progress-bar">
-                    <div class="progress-bar-inner" style="width: 90%;"></div>
+                    <div class="progress-bar-inner" id="desmatada" style="width: 27%;"></div>
                 </div>
                 <div class="progress-text">27%</div>
             </div>
