@@ -3,9 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista de Causas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-color: #F9F9F9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: center; /* Alinha horizontalmente no centro */
+            padding: 20px 0; /* Adiciona um espaço em cima e embaixo do header */
+        }
+
+        nav {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 25px;
+            font-size: 0.9em;
+        }
+
+        a {
+            text-decoration: none;
+            padding-left: 30px;
+            padding-right: 10px;
+            color: rgba(0, 0, 0, 0.616);
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        a:hover {
+            color: #F15B43;
+        }
+
+        /* dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 120px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Exibe o dropdown ao passar o mouse sobre o link "Causas" ou dentro da área de conteúdo */
+        .dropdown:hover .dropdown-content,
+        .dropdown-content:hover {
+            display: block;
+        }
+
+        .dropdown-content a {
+            font-weight: normal;
+            color: black;
+            padding: 10px 4px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center; /* Alinha horizontalmente no centro */
+            align-items: center;
+            height: 100vh; /* Define a altura da página inteira */
+        }
+
+        .box {
+            position: relative;
+            width: 350px;
+            height: 450px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column; /* Permite que a imagem fique no topo e o texto abaixo */
+            background-color: white;
+            justify-content: flex-start; /* Alinha o conteúdo no topo */
+            align-items: center;
+            border: 1px solid #00000000;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+            border-radius: 5px;
+            overflow: hidden; /* Para garantir que a imagem e o texto não saiam da caixa */
+        }
+
+        img {
+            width: 100%; /* Imagem ocupa toda a largura da caixa */
+            height: 220px; /* Ajuste da altura da imagem */
+            object-fit: cover; /* Cobre a área sem distorcer a imagem */
+        }
+
+        p {
+            position: absolute;
+            bottom: 60px; 
+            left: 15px; 
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        div#food {
+            position: absolute;
+            top: 365px;
+            left: 10px;
+        }
+        div#food p {
+            font-variant: small-caps;
+            background-color: #DBF3F1; /* Cor de fundo */
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 5px;
+            padding: 6px;
+            font-size: 1.1em;
+            color: #6cadaf;
+        }
+        div#ambiente {
+            position: absolute;
+            top: 365px;
+            left: 10px;
+        }
+        div#ambiente p {
+            font-variant: small-caps;
+            background-color: #EDFAF0; 
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 5px;
+            padding: 6px;
+            font-size: 1.1em;
+            color: #6DD48A;
+        }
+        div#apoio {
+            position: absolute;
+            top: 375px;
+            left: 10px;
+            width: 190px;
+        }
+        div#apoio p {
+            font-variant: small-caps;
+            background-color: #FEF7E8; 
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 5px;
+            padding: 6px;
+            font-size: 1.1em;
+            color: #F9C7B3;
+        }
+        p#homeless {
+            position: absolute;
+            top: 300px;
+            left: 25px;
+            font-size: 1.6em;
+        }
+
+        .progress-container {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: calc(100% - 20px);
+            display: flex;
+            align-items: center;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-right: 10px;
+        }
+
+        .progress-bar-inner {
+            height: 100%;
+            width: 70%; /* Ajuste a porcentagem conforme necessário */
+            background-color: #F15B43; /* Cor da barra interna */
+        }
+
+        .progress-text {
+            font-size: 1.1em;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <h1>Lista de causas</h1>
+    <header>
+        <nav id="menu">
+            <a  class="mudacor" href="#home">Home</a>
+            <div class="dropdown">
+                <a class="mudacor" href="#container">Causas  <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a class="mudacor" href="listadecausas.html" target="_blank">Lista de causas</a>
+                    <a class="mudacor" href="#">Causas Únicas</a>
+                </div>
+            </div>
+            <a class="mudacor" href="#">Formulário</a>
+            <a class="mudacor" href="#Sobrenos">Sobre nós</a>
+            <a class="mudacor" href="#rodape">Contato</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box">
+            <div id="food">
+                <p>Comida</p>
+            </div>
+            <img src="img/food.jpg" alt="">
+            <p>Educação primária para crianças indígenas</p>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                </div>
+                <div class="progress-text">13%</div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="apoio">
+                <p>Apoio e Abrigo</p>
+            </div>
+            <img src="img/homeless.jpg" alt="">
+            <p id="homeless">Ajudando os sem-teto</p>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" style="width: 50%;"></div>
+                </div>
+                <div class="progress-text">87%</div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="ambiente">
+                <p>Ambiente</p>
+            </div>
+            <img src="img/deforested areas.jpg" alt="">
+            <p>Recuperação de áreas desmatadas</p>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" style="width: 90%;"></div>
+                </div>
+                <div class="progress-text">27%</div>
+            </div>
+        </div>
+    </div>      
 </body>
 </html>
