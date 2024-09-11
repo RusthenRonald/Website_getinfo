@@ -63,7 +63,7 @@
         .dropdown-content a {
             font-weight: normal;
             color: black;
-            padding: 10px 4px;
+            padding: 10px ;
             text-decoration: none;
             display: block;
         }
@@ -74,9 +74,10 @@
 
         .container {
             display: flex;
+            flex-wrap: wrap; /* Permite que as caixas se movam para a próxima linha */
             justify-content: center; /* Alinha horizontalmente no centro */
             align-items: center;
-            height: 100vh; /* Define a altura da página inteira */
+            margin: 20px;
         }
 
         .box {
@@ -196,12 +197,21 @@
             font-size: 1.1em;
             color: #333;
         }
+
+        /*  ajustar o layout em telas menores */
+        @media (max-width: 768px) {
+            .box {
+                width: 100%; /* Ajustei a largura das caixas para preencher a largura da tela */
+                max-width: 350px; /* coloquei um limite máximo para a largura das caixas */
+            }
+        }
+
     </style>
 </head>
 <body>
     <header>
         <nav id="menu">
-            <a  class="mudacor" href="index.html">Home</a>
+            <a class="mudacor" href="index.html">Home</a>
             <div class="dropdown">
                 <a class="mudacor" href="#container">Causas  <i class="fas fa-chevron-down"></i></a>
                 <div class="dropdown-content">
