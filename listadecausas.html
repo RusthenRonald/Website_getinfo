@@ -14,18 +14,20 @@
 
         header {
             display: flex;
-            justify-content: center; /* Alinha horizontalmente no centro */
-            padding: 20px 0; /* Adiciona um espaço em cima e embaixo do header */
+            flex-direction: column; /*  elementos em coluna */
+            align-items: center; /* Centralizei horizontalmente */
+            justify-content: flex-start; /* Inicia o conteúdo no topo */
+            background-image: url(img/header.png);
+            padding: 20px 0;
+            height: 20px;
+            position: relative;
         }
 
         nav {
-            display: inline-flex;
+            width: 100%; /* Garante que o nav ocupe toda a largura */
+            display: flex;
             justify-content: center;
-            align-items: center;
-            padding-top: 25px;
-            font-size: 0.9em;
         }
-
         a {
             text-decoration: none;
             padding-left: 30px;
@@ -71,7 +73,6 @@
         .dropdown-content a:hover {
             background-color: #f1f1f1;
         }
-
         .container {
             display: flex;
             flex-wrap: wrap; /* Permite que as caixas se movam para a próxima linha */
@@ -84,7 +85,8 @@
             position: relative;
             width: 350px;
             height: 450px;
-            margin: 10px;
+            margin-top: 70px;
+            margin-left: 20px;
             display: flex;
             flex-direction: column; /* Permite que a imagem fique no topo e o texto abaixo */
             background-color: white;
@@ -198,7 +200,7 @@
             color: #333;
         }
 
-        /*  ajustar o layout em telas menores */
+        /* para ajustar o layout em telas menores */
         @media (max-width: 768px) {
             .box {
                 width: 100%; /* Ajustei a largura das caixas para preencher a largura da tela */
