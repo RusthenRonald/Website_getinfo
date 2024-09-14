@@ -1247,7 +1247,15 @@ Grandes telas : acima de 1200px
     }
     
     /*fim*/
- 
+    /*Formulário especifico*/
+    div#formularioofc{
+        
+    }
+    div#formularioofc h2{
+        font-size: 2.5em;
+        margin-top: 30px;
+        text-align: center;
+    }
     /*Footer ou Rodapé*/
     footer{
         height: 350px;
@@ -1685,7 +1693,15 @@ Grandes telas : acima de 1200px
         }
         
     /*fim*/
-    
+    /*Formulário especifico*/
+    div#formularioofc{
+        
+    }
+    div#formularioofc h2{
+        font-size: 2.5em;
+        margin-top: 30px;
+        text-align: center;
+    }
     
     /*Rodapé*/
     footer{
@@ -1737,5 +1753,11 @@ Grandes telas : acima de 1200px
         font-size: 0.8em;
         color: white;
     }
+    
+
+
+
+
+
     
 }
