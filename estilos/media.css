@@ -386,8 +386,12 @@ Grandes telas : acima de 1200px
         margin-left: 40px;
         margin-bottom: 10px;
     }
-    
-
+    /*Formulário especifico*/
+    div#formularioofc h2{
+        font-size: 2.1em;
+        margin-top: 30px;
+        text-align: center;
+    }
     /*Footer ou Rodapé*/
     footer a.footer{ /*Menus do rodapé*/
         color: #FE8F1F;
@@ -660,7 +664,6 @@ Grandes telas : acima de 1200px
         padding: 20px;
         box-sizing: border-box;
         margin: 0;
-        margin-bottom: 40px;
         display: flex;
         flex-direction: column; /* Alinha o conteúdo verticalmente */
         align-items: flex-start; /* Alinha todo o conteúdo à esquerda */
@@ -730,7 +733,7 @@ Grandes telas : acima de 1200px
     /*Fim da box*/
     /*Sobre nós*/
     main{
-        margin-top: 160px;
+        margin-top: 100px;
         position: relative;
     }
     /*h2 "Sobre nòs"*/
@@ -799,7 +802,7 @@ Grandes telas : acima de 1200px
         display: flex;
         flex-direction: column;
         align-items: flex-start; /* Alinha todas as divs à esquerda */
-        padding-left:  50px; /* Ajuste o padding conforme necessário */
+        padding-left:  20px; /* Ajuste o padding conforme necessário */
     }
     /* Adicione alguns estilos básicos para melhor visualização */
     #sobrenos, #mvh, #sobrenosp {
@@ -815,7 +818,7 @@ Grandes telas : acima de 1200px
         height: 300px;
         position: absolute;
         top: 75px;
-        left: 570px;
+        left: 500px;
         border-radius: 7px;
     }
     main img#kids2{
@@ -823,10 +826,15 @@ Grandes telas : acima de 1200px
         height: 200px;
         position: absolute;
         top: 290px;
-        left: 665px;
+        left: 580px;
         border-radius: 7px;
     }
-    
+    /*Formulário especifico*/
+    div#formularioofc h2{
+        font-size: 2.4em;
+        margin-top: 30px;
+        text-align: center;
+    }
 /*fim*/
     /*Footer ou Rodapé*/
     footer{

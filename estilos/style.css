@@ -293,7 +293,7 @@ div p{
     /*h2 "Sobre nòs"*/
     #h2sobrenos{
         margin-bottom: 20px;
-        font-size: 2.2em;
+        font-size: 2.0em;
         color: #F15B43;
     }
     /*Posicionamento do p */
@@ -381,7 +381,15 @@ div p{
         border-radius: 7px;
         margin-left: 50px;
     }
-    
+    /*Formulário especifico*/
+    div#formularioofc{
+        
+    }
+    div#formularioofc h2{
+        font-size: 1.5em;
+        margin-top: 30px;
+        text-align: center;
+    }
 /*fim*/
     /*Rodapé*/
     footer{
