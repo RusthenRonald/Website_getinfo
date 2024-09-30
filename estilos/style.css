@@ -84,7 +84,7 @@ a:hover {
 
 div#header{/*Div para posicionar texto do header*/
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 8%;
 }
 /*textos do header*/
@@ -93,7 +93,7 @@ div#laranja{ /*é especialmente uma palavra , só pra alterar a cor*/
     color: #F15B43;
 }
 div h1{ 
-    font-size: 1.6em;
+    font-size: 1.8em;
     width: 90vw;
     color: black;
     
@@ -130,7 +130,7 @@ div p{
         color: white;
         font-size: 1.7em;
         width: 80vw;
-        font-weight: bold;
+        font-weight: normal;
         margin: 0; /* Remove a margem padrão do parágrafo */
         text-align: left; /* Garante que o texto esteja alinhado à esquerda */
     } 
@@ -165,25 +165,24 @@ div p{
     /*icones*/
     span#education{
         position: absolute;
-        top: 45px;
+        top: 55px;
         left: 15px;
         color: white;
-        font-size: 60px;
-        
+        font-size: 55px;
     }
     span#saude{
         position: absolute;
-        top: 40px;
+        top: 50px;
         left: 15px;
         color: white;
-        font-size: 60px;
+        font-size: 55px;
     }
     span#comida{
         position: absolute;
-        top: 60px;
+        top: 55px;
         left: 15px;
         color: white;
-        font-size: 60px;
+        font-size: 55px;
     }
     /*Sobre nós*/
     main{
