@@ -17,12 +17,11 @@ Grandes telas : acima de 1200px
         margin: 0; /* Remove qualquer margem extra */
     }
 }
-
 /*Tablet*/
 @media screen and (min-width:500px) and (max-width:830px){
     header{/*Cabeçalho*/
         position: relative;
-        height: 680px;
+        height: 450px;
         background-image: url(../img/header.png);
         background-size: cover;
         background-position: center;
@@ -105,9 +104,8 @@ Grandes telas : acima de 1200px
     }
     /*fimdropdown*/
     div#header{/*Div para posicionar texto do header*/
-        width: 400px;
         position: absolute;
-        top: 21%;
+        top: 35%;
         left: 8%;
     }
     /*textos do header*/
@@ -116,7 +114,7 @@ Grandes telas : acima de 1200px
         color: #F15B43;
     }
     div h1{ /*Titulo do header*/
-        font-size: 2.7em;
+        font-size: 2.8em;
         width: 80vw;
         color: black;
     }
@@ -125,101 +123,8 @@ Grandes telas : acima de 1200px
         width: 40vw;
         font-size: 0.8em;
     }
-/*fim de cabeçalho*/
-    /*Inico do Formulário*/
-    /* Estilo para as mini caixas de valores */
-
-
-    .campo {
-        margin-bottom: 15px; /* Espaço abaixo de cada campo */
-        padding: 3px; /* Espaço interno dentro do campo */
-        border: 2px solid #ccc; /* Cor e espessura da borda */
-        border-radius: 5px; /* Bordas arredondadas */
-        display: flex; /* Para alinhar ícone e input */
-        align-items: center; /* Alinhar verticalmente o ícone e o texto */
-    }
-    
-    .campo input {
-        border: none; /* Remove a borda do input */
-        padding: 5px; /* Espaço interno dentro do input */
-        font-size: 12px; /* Tamanho da fonte */
-        flex: 1; /* Faz o input ocupar o máximo de espaço disponível */
-    }
-    
-    .campo span.material-symbols-outlined {
-        font-size: 24px; /* Tamanho do ícone */
-        margin-right: 10px; /* Espaço entre o ícone e o input */
-    }
-    
-    /* Estilo para as mini caixas de valores */
-    .doacao-valores {
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 20px;
-    }
-
-    .valor-opcao {
-        display: flex;
-        align-items: center;
-        height: 50px;
-        font-size: 1.0em;
-        border: 2px solid #ccc; /* Borda ao redor da opção */
-        border-radius: 5px; /* Bordas arredondadas */
-        padding: 5px 5px; /* Espaçamento interno */
-    }
-    .valor-opcao:hover{
-        border-color: #f15a437e;
-    }
-    .valor-opcao input {
-        display: none; /* Esconde o botão de rádio padrão */
-    }
-
-    div#Formulario form{
-        position: absolute;
-        background-color: white;
-        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
-        height: 300px;
-        width: 50vw;
-        border-radius: 10px;
-        padding: 20px;
-        top: 345px;
-        left: 155px;
-    }
-    div#Formulario form h2{
-        font-size: 1.0em;
-        text-align: center;
-        margin-bottom: 8px;
-    }
-    form>input[type=submit]{
-        display: block;
-        font-size: 0.8em;
-        width: 100%;
-        height: 40px;
-        margin-top: 10px;
-        border-radius: 20px;
-        border: 0px;
-        background-color: #E5BA27;
-        
-    }
-    form>input[type=submit]:hover{
-        background-color: #e5b927a9;
-        
-    }
-    form >a#botao{
-        display: block;
-        text-align: center;
-        font-size: 0.8em;
-        width: 100%;
-        height: 40px;
-        margin-top: 5px;
-    }
-    form >a#botao:hover{
-        color: #F15B43;
-    }
-    #botao .material-symbols-outlined {
-        font-size: 19px; /* Ajuste o valor conforme necessário */
-    }
-    /*Fim do header*/
+   
+/*Fim do header*/
      /*Inicio da box*/
      .container {
         display: flex;
@@ -400,7 +305,7 @@ Grandes telas : acima de 1200px
     div#nav{ /*div da parte da navegação*/
         position: absolute;
         top: 20px;
-        left: 30px;
+        left: 100px;
     }
     div#nav p{ /*parágrafo da navegação*/
         margin-top: 20px;
@@ -410,7 +315,7 @@ Grandes telas : acima de 1200px
     div#popu{ /*div da parte causas populares*/
         position: absolute;
         top: 20px;
-        left: 270px;
+        left: 470px;
     }
     div#popu p{ /*parágrafo causas populares*/
         margin-top: 20px;
@@ -420,7 +325,7 @@ Grandes telas : acima de 1200px
     div#part{
         position: absolute;
         top: 170px;
-        left: 30px;
+        left: 100px;
     }
     div#part p{ /*parágrafo da parte participantes*/
         margin-top: 5px;
@@ -430,7 +335,7 @@ Grandes telas : acima de 1200px
     div#cont{ /*div da parte contato*/
         position: absolute;
         top: 170px;
-        left: 270px;
+        left: 470px;
     }
     div#cont p{ /*parágrafo da parte contato*/
         margin-top: 20px;
@@ -1753,11 +1658,5 @@ Grandes telas : acima de 1200px
         font-size: 0.8em;
         color: white;
     }
-    
-
-
-
-
-
     
 }
