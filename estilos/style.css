@@ -16,7 +16,7 @@ body,html{
 /*Cabeçalho*/
 header{
     position: relative;
-    height: 500px;
+    height: 300px;
     background-image: url(../img/header.png);
     background-position: left ;
     background-size: cover;
@@ -64,7 +64,7 @@ a:hover {
     z-index: 1;
 }
 
-/* Exibe o dropdown ao passar o mouse sobre o link "Causas" ou dentro da área de conteúdo */
+/* para exibir o dropdown ao passar o mouse sobre o link "Causas" ou dentro da área de conteúdo */
 .dropdown:hover .dropdown-content,
 .dropdown-content:hover {
     display: block;
@@ -83,10 +83,9 @@ a:hover {
 /*fimdropdown*/
 
 div#header{/*Div para posicionar texto do header*/
-    width: 380px;
     position: absolute;
-    top: 17%;
-    left: 10%;
+    top: 30%;
+    left: 8%;
 }
 /*textos do header*/
 div#laranja{ /*é especialmente uma palavra , só pra alterar a cor*/
@@ -95,7 +94,7 @@ div#laranja{ /*é especialmente uma palavra , só pra alterar a cor*/
 }
 div h1{ 
     font-size: 1.6em;
-    width: 85vw;
+    width: 90vw;
     color: black;
     
 }
@@ -105,106 +104,7 @@ div p{
     font-size: 0.7em;
 }
 /*Fim do header*/
-    /*Inico do Formulário*/
-    /*caixa de doação*/
-    .doacao-valores {
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 20px;
-    }
-    /*Conteudo da caixa de doação*/
-    .valor-opcao {
-        display: flex;
-        align-items: center;
-        height: 40px;
-        padding: 3px 8px;/* Espaçamento interno */
-        font-size: 0.7em;
-        border: 2px solid #ccc; /* Borda ao redor da opção */
-        border-radius: 5px ; /* Bordas arredondadas */
-        
-    }
-    /*efito ao passar mouse */
-    .valor-opcao:hover{
-        border-color: #f15a437e;
-    }
-    /* Esconde o botão de rádio padrão */
-    .valor-opcao input {
-        display: none; 
-    }
-    /*Campo de formulário*/
-    .campo {
-        margin-bottom: 10px; /* Espaço abaixo de cada campo */
-        padding: 2px; /* Espaço interno dentro do campo */
-        border: 2px solid #ccc; /* Cor e espessura da borda */
-        border-radius: 5px; /* Bordas arredondadas */
-        display: flex; /* Para alinhar ícone e input */
-        align-items: center; /* Alinhar verticalmente o ícone e o texto */
-    }
-    /*Conteudo do formulário*/
-    .campo input {
-        border: none; /* Remove a borda do input */
-        padding: 5px; /* Espaço interno dentro do input */
-        font-size: 8px; /* Tamanho da fonte */
-        flex: 1; /* Faz o input ocupar o máximo de espaço disponível */
-    }
-    /*icone do formulário*/
-    .campo span.material-symbols-outlined {
-        font-size: 19px; /* Tamanho do ícone */
-        margin-right: 5px; /* Espaço entre o ícone e o input */
-    }
-    /*Posicionamento de formulário*/
-    div#Formulario form{
-        position: absolute;
-        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
-        background-color: white;
-        height: 225px;
-        width: 70vw;
-        border-radius: 10px;
-        padding: 20px;
-        top: 220px;
-        left: 50px;
-    }
-    /*Posicionamento de h2*/
-    div#Formulario form h2{
-        font-size: 0.9em;
-        text-align: center;
-        margin-bottom: 5px;
-    }
-    /*Botão doe agora*/
-    form>input[type=submit]{
-        display: block;
-        font-size: 0.7em;
-        width: 100%;
-        height: 20px;
-        margin-top: 3px;
-        border-radius: 20px;
-        border: 0px;
-        background-color: #E5BA27;
-        
-    }
-    /*efeito ao passar mouse*/
-    form>input[type=submit]:hover{
-        background-color: #e5b927a9;
-        
-    }
-    /*Conteudo do botao*/
-    form >a#botao{
-        display: block;
-        text-align: center;
-        font-size: 0.7em;
-        width: 100%;
-        height: 40px;
-        
-    }
-    form >a#botao:hover{
-        color: #F15B43;
-    }
-    /*icone do botao*/
-    #botao .material-symbols-outlined {
-        font-size: 17px; /* Ajuste o valor conforme necessário */
-    }
     /*div dos 3 blocos abaixo do header*/
-    /* Cores diferentes para cada div */
     /* Estilo para cada div com imagem e cor de fundo */
     /*Inicio da box*/
     .container {

@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Metadados -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Arquivos de Estilo -->
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <!-- Título do Site -->
     <title>Site Getinfo</title>
 </head>
+
 <body>
     <!-- Cabeçalho do site -->
     <header id="home">
@@ -100,10 +96,6 @@
         <!-- Imagens ilustrativas -->
         <img id="kids" src="img/kids.png" alt="">
         <img id="kids2" src="img/africa.jpg" alt="">
-
-        <!-- Formulário -->
-        <div id="formularioofc"></div>
-        <h2>Formulário</h2>
     </main>
 
     <!-- Rodapé -->
@@ -148,22 +140,20 @@
         </div>
     </footer>
 </body>
-
-<!-- Script para adicionar a classe 'active' ao link clicado -->
-<script>
-    const links = document.querySelectorAll('.missao');
-    
-    links.forEach(link => {
-        link.addEventListener('click', function() {
-            // Remove a classe 'active' de todos os links
-            links.forEach(item => item.classList.remove('active'));
-            
-            // Adiciona a classe 'active' ao link clicado
-            this.classList.add('active');
+    <!-- Script para adicionar a classe 'active' ao link/menu clicado -->
+    <script>
+        const links = document.querySelectorAll('.missao');
+        
+        links.forEach(link => {
+            link.addEventListener('click', function() {
+                // Remove a classe 'active' de todos os links
+                links.forEach(item => item.classList.remove('active'));
+                
+                // Adiciona a classe 'active' ao link clicado
+                this.classList.add('active');
+            });
         });
-    });
-</script>
-
+    </script>
 </html>
 
 
