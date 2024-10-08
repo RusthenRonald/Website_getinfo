@@ -263,7 +263,7 @@ div p{
         margin-bottom: 20px; /* Espaçamento entre as divs */
     }
 
-    #sobrenos p, #sobrenosp p {
+    #sobrenosp, #sobrenosp p {
         margin: 0;
     }
     /*Imagens*/
